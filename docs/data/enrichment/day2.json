@@ -1,0 +1,59 @@
+{
+  "day": 2,
+  "updated": "2026-07-18",
+  "topic": "First connectors: que, y, a, de, and eso",
+  "tips": [
+    {
+      "title": "Que is the glue of Spanish",
+      "body": "Que is one of the most common words in the whole language. It connects two ideas, like 'She says que she is happy.' In English we often drop 'that' ('She says she is happy'), but in Spanish que can never be left out. If you hear a Spanish sentence, there is a good chance que is in it somewhere."
+    },
+    {
+      "title": "De does double duty: 'of' AND 'from'",
+      "body": "Spanish has no apostrophe-s. Instead of 'Maria's book,' Spanish says 'the book de Maria' (the book of Maria). The same little word also means 'from': someone can be de Mexico. When you see de, ask yourself which job it is doing."
+    },
+    {
+      "title": "A points where things are headed",
+      "body": "A means 'to' and shows movement toward a place: you go a the park, you travel a Spain. Later you will see it has more tricks, like appearing before people. For now, think of a as a little arrow pointing where someone or something is going."
+    },
+    {
+      "title": "Eso is 'that' with no gender",
+      "body": "Spanish words are usually masculine or feminine, but eso is neuter: it points at a whole idea or a mystery object, not a specific named thing. 'Eso is great!' means the whole situation is great. Bonus fact: eso never wears an accent mark."
+    }
+  ],
+  "bonusCards": [
+    {
+      "english": "The dog and the cat play in the garden of the house.",
+      "answer": "The dog **y** the cat play in the garden **de** the house."
+    },
+    {
+      "english": "I think that we should walk to the library.",
+      "answer": "I think **que** we should walk **a** the library."
+    },
+    {
+      "english": "That is the song from the movie.",
+      "answer": "**Eso** is the song **de** the movie."
+    },
+    {
+      "english": "The bird flew from the tree to the roof.",
+      "answer": "The bird flew **de** the tree **a** the roof."
+    },
+    {
+      "english": "She wants to learn that and share it with her sister.",
+      "answer": "She wants **a** learn **eso** **y** share it with her sister."
+    }
+  ],
+  "resources": [
+    {
+      "name": "SpanishDictionary.com — Basic Spanish Prepositions (a and de)",
+      "url": "https://www.spanishdict.com/guide/basic-spanish-prepositions"
+    },
+    {
+      "name": "SpanishDictionary.com — The Neuter Demonstrative Pronouns Eso, Esto, and Aquello",
+      "url": "https://www.spanishdict.com/guide/the-neuter-demonstrative-pronouns-eso-esto-and-aquello"
+    },
+    {
+      "name": "BaseLang — Que vs Qué in Spanish",
+      "url": "https://baselang.com/blog/basic-grammar/que-vs-que-in-spanish/"
+    }
+  ]
+}

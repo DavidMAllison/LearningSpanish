@@ -1,0 +1,59 @@
+{
+  "day": 6,
+  "updated": "2026-07-18",
+  "topic": "Present tense of ser (to be)",
+  "tips": [
+    {
+      "title": "Ser is irregular, just like English 'to be'",
+      "body": "None of the forms soy, eres, es, somos, son look much like 'ser', so they have to be memorized. English does the exact same thing: am, is, and are look nothing like 'be'. You already mastered this trick once in English, so you can do it again in Spanish."
+    },
+    {
+      "title": "The DOCTOR trick for when to use ser",
+      "body": "Ser is for what things ARE: Description, Occupation, Characteristic, Time, Origin, and Relationship. 'Soy a student' (occupation), 'Es my sister' (relationship), 'Somos de Ohio' (origin). If the sentence says what something fundamentally is, ser is your verb."
+    },
+    {
+      "title": "Soy already means 'I am'",
+      "body": "Each form of ser carries its subject inside it: soy can only mean 'I am' and somos can only mean 'we are'. That is why Spanish speakers usually skip the word for 'I' or 'we' entirely. One word does the work of two."
+    },
+    {
+      "title": "Heads up: Spanish has a second 'to be'",
+      "body": "In a couple of days you will meet estar, the other verb for 'to be'. Ser handles what something is; estar will handle how it feels and where it is. For now, just enjoy ser, and remember that 'is' will not always translate the same way."
+    }
+  ],
+  "bonusCards": [
+    {
+      "english": "My dream is to be a pilot.",
+      "answer": "My dream **es** **ser** **un** pilot."
+    },
+    {
+      "english": "The cat is not a dog, and that is fine.",
+      "answer": "**El** cat **no** **es** **un** dog, **y** **eso** **es** fine."
+    },
+    {
+      "english": "Are you the artist of the family?",
+      "answer": "**¿Eres** **el** artist **de** **la** family?"
+    },
+    {
+      "english": "We are from the city, and they are from the mountains.",
+      "answer": "**Somos** **de** **la** city, **y** they **son** **de** **las** mountains."
+    },
+    {
+      "english": "To be kind with the animals is important.",
+      "answer": "**Ser** kind **con** **los** animals **es** important."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Kwiziq Spanish — Conjugate ser in the present tense (El Presente)",
+      "url": "https://spanish.kwiziq.com/revision/grammar/conjugate-ser-in-el-presente-present-tense"
+    },
+    {
+      "name": "SpanishDictionary.com — Ser",
+      "url": "https://www.spanishdict.com/guide/ser"
+    },
+    {
+      "name": "SpanishDictionary.com — Ser vs. Estar (DOCTOR mnemonic)",
+      "url": "https://www.spanishdict.com/guide/ser-vs-estar"
+    }
+  ]
+}

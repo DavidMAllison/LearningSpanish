@@ -13,11 +13,16 @@ becoming "Spanglish" and eventually nearly full Spanish.
   - `quiz.html` — end-of-week gate quiz; score 8/10 to unlock the next week
   - `data/days/` — flashcard content for days 2–20
   - `data/quizzes/` — the four weekly gate quizzes
+  - `data/enrichment/` — optional per-day "Bonus" content (tips, extra
+    practice cards, cited external resources) rendered under the flashcards
   - Progress is stored per-user in the browser's localStorage; visitors are
     identified by a `?u=<code>` link parameter.
 - **`scripts/send_weekly_sms.py`** — queues a weekly iMessage (Sunday 11pm,
   via a local `launchd` job) containing each person's personal site link.
   Recipient details live in a gitignored config file.
+- **`.claude/agents/lesson-enricher.md`** — Claude Code agent that researches
+  reputable Spanish-learning sites for a given day's topic and writes that
+  day's `data/enrichment/dayN.json` (invoke: "enrich day 7").
 - **`flashcard-app/`** — earlier local-only flashcard web app (predecessor of
   the site; still works locally via `python3 server.py`).
 - **`download_videos.py`** — downloads course videos into `LLMContext/`

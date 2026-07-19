@@ -30,6 +30,7 @@
   </div>
 
   <div id="dashboard" style="display:none;">
+    <div id="keanuSpot"></div>
     <div class="groups-bar" id="groupsBar"></div>
     <div id="weekList"></div>
   </div>
@@ -82,6 +83,7 @@
     if (g > SI1M.GROUPS.length) {
       document.getElementById("greeting").textContent = "🎉 ¡Felicidades, " + state.name + "!";
       document.getElementById("subline").textContent = "You finished the whole course. ¡Adiós y gracias!";
+      document.getElementById("keanuSpot").innerHTML = SI1M.keanuBubbleHTML("courseDone", state.name);
       renderGroupsBar(g);
       return;
     }
@@ -90,6 +92,11 @@
     document.getElementById("greeting").textContent = "¡Hola, " + state.name + "!";
     document.getElementById("subline").textContent =
       "Week " + g + " of 4 — \"" + group.theme + "\" (Days " + group.days[0] + "–" + group.days[4] + ")";
+
+    // Keanu: encourage a retake if the current quiz was failed, else welcome
+    var qState = state.quiz[String(g)] || { attempts: 0, passed: false };
+    var keanuCtx = qState.attempts > 0 && !qState.passed ? "review" : "welcome";
+    document.getElementById("keanuSpot").innerHTML = SI1M.keanuBubbleHTML(keanuCtx, state.name);
     renderGroupsBar(g);
 
     var list = document.getElementById("weekList");

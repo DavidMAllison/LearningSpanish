@@ -34,6 +34,7 @@
   <div id="resultView" class="card-box center" style="display:none;">
     <div class="score-big" id="scoreLine"></div>
     <p class="mt" id="resultText"></p>
+    <div id="resultKeanu"></div>
     <div class="btn-row" style="justify-content:center;">
       <a class="btn" id="resultPrimary" href="index.html"></a>
     </div>
@@ -120,6 +121,8 @@
     document.getElementById("submitBtn").style.display = "none";
 
     var rv = document.getElementById("resultView");
+    document.getElementById("resultKeanu").innerHTML =
+      SI1M.keanuBubbleHTML(passed ? "quizPass" : "quizFail", state.name);
     document.getElementById("scoreLine").textContent = score + " / " + quiz.questions.length;
     if (passed) {
       document.getElementById("resultText").textContent =

@@ -44,9 +44,26 @@
   <div id="doneView" class="card-box center" style="display:none;">
     <div class="score-big" id="doneEmoji">🎉</div>
     <p class="mt" id="doneText"></p>
+    <div id="doneKeanu"></div>
     <div class="btn-row" style="justify-content:center;">
       <button class="btn" id="nextSessionBtn" style="display:none;">Next session →</button>
       <a class="btn secondary" href="index.html">Back to week</a>
+    </div>
+  </div>
+
+  <!-- Bonus enrichment (shown when data/enrichment/dayN.json exists) -->
+  <div id="bonusView" style="display:none;">
+    <h2 class="bonus-heading">✨ Bonus: <span id="bonusTopic"></span></h2>
+    <p class="muted">Extra tips and practice from around the web.</p>
+    <div id="bonusTips"></div>
+    <div id="bonusCardsWrap" style="display:none;">
+      <h3 class="bonus-sub">Extra practice</h3>
+      <p class="muted">Tap a sentence to reveal the Spanglish answer.</p>
+      <div id="bonusCards"></div>
+    </div>
+    <div id="bonusResourcesWrap" style="display:none;">
+      <h3 class="bonus-sub">Go deeper</h3>
+      <div id="bonusResources"></div>
     </div>
   </div>
 </div>
@@ -134,6 +151,8 @@
     document.getElementById("doneText").textContent = last
       ? "Day " + day + " complete. ¡Muy bien!"
       : "Session " + (sessionIndex + 1) + " done!";
+    document.getElementById("doneKeanu").innerHTML =
+      SI1M.keanuBubbleHTML(last ? "dayDone" : "sessionDone", state.name);
     document.getElementById("nextSessionBtn").style.display = last ? "none" : "inline-block";
   }
 
@@ -168,6 +187,51 @@
       document.getElementById("title").textContent = "Day " + day;
       document.getElementById("subline").textContent = "Could not load this lesson.";
     });
+
+  // Bonus enrichment — optional file; silently absent if not generated yet
+  function bold(s) { return s.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>"); }
+
+  fetch("data/enrichment/day" + day + ".json")
+    .then(function (r) { if (!r.ok) throw new Error("none"); return r.json(); })
+    .then(function (e) {
+      document.getElementById("bonusTopic").textContent = e.topic || "";
+
+      var tipsBox = document.getElementById("bonusTips");
+      (e.tips || []).forEach(function (t) {
+        var d = document.createElement("div");
+        d.className = "card-box";
+        d.innerHTML = "<strong>" + t.title + "</strong><p class=\"muted mt\" style=\"font-size:0.95rem;color:#1d1d1f;\">" + bold(t.body) + "</p>";
+        tipsBox.appendChild(d);
+      });
+
+      if (e.bonusCards && e.bonusCards.length) {
+        var cardsBox = document.getElementById("bonusCards");
+        e.bonusCards.forEach(function (c) {
+          var det = document.createElement("details");
+          det.className = "bonus-card";
+          det.innerHTML = "<summary>" + c.english + "</summary><div class=\"reveal\">" + bold(c.answer) + "</div>";
+          cardsBox.appendChild(det);
+        });
+        document.getElementById("bonusCardsWrap").style.display = "block";
+      }
+
+      if (e.resources && e.resources.length) {
+        var resBox = document.getElementById("bonusResources");
+        e.resources.forEach(function (r) {
+          var a = document.createElement("a");
+          a.className = "video-item-link";
+          a.href = r.url;
+          a.target = "_blank";
+          a.rel = "noopener";
+          a.textContent = "🔗 " + r.name;
+          resBox.appendChild(a);
+        });
+        document.getElementById("bonusResourcesWrap").style.display = "block";
+      }
+
+      document.getElementById("bonusView").style.display = "block";
+    })
+    .catch(function () { /* no enrichment for this day */ });
 })();
 </script>
 </body>
