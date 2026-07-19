@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🇪🇸</text></svg>">
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <h1 id="title">Quiz</h1>
+    <div class="sub" id="subline"></div>
+  </header>
+
+  <div id="lockedView" class="card-box center" style="display:none;">
+    <p>🔒 This quiz is locked.</p>
+    <p class="muted mt">Pass the earlier quizzes first.</p>
+    <div class="btn-row" style="justify-content:center;">
+      <a class="btn secondary" href="index.html">Back to week</a>
+    </div>
+  </div>
+
+  <div id="quizView" style="display:none;">
+    <p class="muted mt" id="intro"></p>
+    <div id="questions"></div>
+    <div class="btn-row">
+      <button class="btn" id="submitBtn">Check my answers</button>
+      <a class="btn secondary" href="index.html">Back to week</a>
+    </div>
+  </div>
+
+  <div id="resultView" class="card-box center" style="display:none;">
+    <div class="score-big" id="scoreLine"></div>
+    <p class="mt" id="resultText"></p>
+    <div class="btn-row" style="justify-content:center;">
+      <a class="btn" id="resultPrimary" href="index.html"></a>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+<script>
+(function () {
+  var code = SI1M.currentCode();
+  if (!code) { location.href = "index.html"; return; }
+  var state = SI1M.load(code);
+  var group = parseInt(SI1M.param("group"), 10);
+  if (!group || group < 1 || group > SI1M.GROUPS.length) { location.href = "index.html"; return; }
+
+  if (group > state.group) {
+    document.getElementById("lockedView").style.display = "block";
+    document.getElementById("title").textContent = "Locked";
+    return;
+  }
+
+  var quiz = null;
+  var picks = {};
+
+  fetch("data/quizzes/group" + group + ".json")
+    .then(function (r) { return r.json(); })
+    .then(function (q) {
+      quiz = q;
+      document.getElementById("title").textContent = q.title;
+      document.getElementById("subline").textContent = "Pass with " + q.passScore + " of " + q.questions.length;
+      document.getElementById("intro").textContent =
+        "Answer all " + q.questions.length + " questions, then check your answers.";
+      renderQuestions();
+      document.getElementById("quizView").style.display = "block";
+    });
+
+  function renderQuestions() {
+    var box = document.getElementById("questions");
+    quiz.questions.forEach(function (q, qi) {
+      var div = document.createElement("div");
+      div.className = "question card-box";
+      var html = '<div class="qtext">' + (qi + 1) + ". " +
+        q.prompt.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>") + "</div>";
+      q.options.forEach(function (opt, oi) {
+        html += '<label class="opt" data-q="' + qi + '" data-o="' + oi + '">' +
+          '<input type="radio" name="q' + qi + '" value="' + oi + '">' +
+          opt.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>") + "</label>";
+      });
+      div.innerHTML = html;
+      box.appendChild(div);
+    });
+
+    box.addEventListener("change", function (e) {
+      var input = e.target;
+      if (input.name && input.name.charAt(0) === "q") {
+        var qi = parseInt(input.name.slice(1), 10);
+        picks[qi] = parseInt(input.value, 10);
+        var opts = box.querySelectorAll('.opt[data-q="' + qi + '"]');
+        opts.forEach(function (o) { o.classList.remove("sel"); });
+        input.closest(".opt").classList.add("sel");
+      }
+    });
+  }
+
+  document.getElementById("submitBtn").addEventListener("click", function () {
+    var unanswered = quiz.questions.length - Object.keys(picks).length;
+    if (unanswered > 0) {
+      alert("Answer all questions first (" + unanswered + " left).");
+      return;
+    }
+    var score = 0;
+    quiz.questions.forEach(function (q, qi) {
+      var opts = document.querySelectorAll('.opt[data-q="' + qi + '"]');
+      opts.forEach(function (o) {
+        var oi = parseInt(o.dataset.o, 10);
+        if (oi === q.answer) o.classList.add("right");
+        else if (picks[qi] === oi) o.classList.add("wrong");
+      });
+      if (picks[qi] === q.answer) score++;
+    });
+
+    var rec = SI1M.recordQuiz(code, state, group, score, quiz.passScore);
+    var passed = score >= quiz.passScore;
+    document.getElementById("submitBtn").style.display = "none";
+
+    var rv = document.getElementById("resultView");
+    document.getElementById("scoreLine").textContent = score + " / " + quiz.questions.length;
+    if (passed) {
+      document.getElementById("resultText").textContent =
+        group < SI1M.GROUPS.length
+          ? "¡Muy bien! Week " + (group + 1) + " is unlocked."
+          : "¡Felicidades! You finished the whole course!";
+      document.getElementById("resultPrimary").textContent = "Back to week";
+    } else {
+      document.getElementById("resultText").textContent =
+        "Not yet — you need " + quiz.passScore + " to pass. Review this week's lessons and try again. (Attempt " + rec.attempts + ")";
+      document.getElementById("resultPrimary").textContent = "Review lessons";
+    }
+    rv.style.display = "block";
+    rv.scrollIntoView({ behavior: "smooth" });
+  });
+})();
+</script>
+</body>
+</html>

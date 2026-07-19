@@ -1,0 +1,26 @@
+{
+  "day": 20,
+  "generated_at": "2026-07-18T00:00:00+00:00",
+  "cards": [
+    {"english": "Hello! Good morning, sir!", "answer": "**¡Hola!** **¡Buenos días**, **señor**!"},
+    {"english": "Thanks for everything; you are very kind.", "answer": "**Gracias** **por** **todo**; **usted** **es** **muy** kind."},
+    {"english": "Can you help me, please?", "answer": "**¿Puede** **usted** **me** help, **por favor**?"},
+    {"english": "Thank you for the gift! You are welcome.", "answer": "**¡Gracias** **por** **el** gift! **De nada**."},
+    {"english": "Good morning! How are you today?", "answer": "**¡Buen día!** **¿Cómo** **estás** today?"},
+    {"english": "Goodbye, my friend; I know we go together tomorrow.", "answer": "**Adiós**, **mi** **amigo**; **sé** **que** **vamos** together tomorrow."},
+    {"english": "Hello, is there someone in the house?", "answer": "**Hola**, **¿hay** **alguien** **en** **la** **casa**?"},
+    {"english": "Please, one more time.", "answer": "**Por favor**, **una** **vez** **más**."},
+    {"english": "Thank God everything went well.", "answer": "**Gracias** **a** **Dios** **todo** went **bien**."},
+    {"english": "Good morning! What a beautiful day, right?", "answer": "**¡Buenos días!** **¡Qué** beautiful **día**, **¿verdad**?"},
+    {"english": "Thanks, but I do not want more coffee.", "answer": "**Gracias**, **pero** **no** **quiero** **más** coffee."},
+    {"english": "Please, can you give me two minutes?", "answer": "**Por favor**, **¿puede** **usted** **me** give **dos** minutes?"},
+    {"english": "Hello! I believe you are the new neighbor.", "answer": "**¡Hola!** **Creo** **que** **usted** **es** **el** new neighbor."},
+    {"english": "Goodbye! Thanks for a very good day!", "answer": "**¡Adiós!** **¡Gracias** **por** **un** **muy** **buen** **día**!"},
+    {"english": "You are welcome; it was nothing.", "answer": "**De nada**; **no** **era** **nada**."},
+    {"english": "Please, do not go now; there is more food.", "answer": "**Por favor**, **no** go **ahora**; **hay** **más** food."},
+    {"english": "Good morning, madam; your table is ready.", "answer": "**Buenos días**, madam; **su** table **está** ready."},
+    {"english": "Thanks for going with me to that place.", "answer": "**Gracias** **por** **ir** **conmigo** **a** **ese** **lugar**."},
+    {"english": "Hello and goodbye — I only have two minutes!", "answer": "**Hola** **y** **adiós** — **¡sólo** **tengo** **dos** minutes!"},
+    {"english": "Thank God, and thank you all for this beautiful time.", "answer": "**Gracias** **a** **Dios**, **y** **gracias** **a** **todos** **por** **este** beautiful **tiempo**."}
+  ]
+}

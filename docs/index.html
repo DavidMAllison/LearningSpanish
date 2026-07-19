@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spanish Week</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🇪🇸</text></svg>">
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <h1 id="greeting">🇪🇸 Spanish in 1 Month</h1>
+    <div class="sub" id="subline"></div>
+  </header>
+
+  <!-- Identity setup (shown only when needed) -->
+  <div class="card-box identity" id="identityBox" style="display:none;">
+    <div id="identityStep1" style="display:none;">
+      <strong>Welcome!</strong>
+      <p class="muted mt">Open the link from your text message to get started — it has your personal code in it. Or enter the code here:</p>
+      <input type="text" id="codeInput" placeholder="your code (one letter)" maxlength="8" autocapitalize="none">
+      <div class="btn-row"><button class="btn" id="codeBtn">Continue</button></div>
+    </div>
+    <div id="identityStep2" style="display:none;">
+      <strong>¡Hola! What should we call you?</strong>
+      <input type="text" id="nameInput" placeholder="your name" maxlength="24">
+      <div class="btn-row"><button class="btn" id="nameBtn">Let's go</button></div>
+    </div>
+  </div>
+
+  <div id="dashboard" style="display:none;">
+    <div class="groups-bar" id="groupsBar"></div>
+    <div id="weekList"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+<script>
+(function () {
+  var DOWS = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"];
+  var code = SI1M.currentCode();
+  var state = code ? SI1M.load(code) : null;
+
+  function show(el) { document.getElementById(el).style.display = "block"; }
+  function hide(el) { document.getElementById(el).style.display = "none"; }
+
+  function boot() {
+    if (!code) {
+      show("identityBox"); show("identityStep1");
+      return;
+    }
+    state = SI1M.load(code);
+    if (!state.name) {
+      show("identityBox"); hide("identityStep1"); show("identityStep2");
+      return;
+    }
+    hide("identityBox");
+    render();
+  }
+
+  document.getElementById("codeBtn").addEventListener("click", function () {
+    var v = document.getElementById("codeInput").value.trim().toLowerCase();
+    if (!v) return;
+    localStorage.setItem("si1m_code", v);
+    code = v;
+    boot();
+  });
+
+  document.getElementById("nameBtn").addEventListener("click", function () {
+    var v = document.getElementById("nameInput").value.trim();
+    if (!v) return;
+    state.name = v;
+    SI1M.save(code, state);
+    boot();
+  });
+
+  function render() {
+    show("dashboard");
+    var g = state.group;
+
+    if (g > SI1M.GROUPS.length) {
+      document.getElementById("greeting").textContent = "🎉 ¡Felicidades, " + state.name + "!";
+      document.getElementById("subline").textContent = "You finished the whole course. ¡Adiós y gracias!";
+      renderGroupsBar(g);
+      return;
+    }
+
+    var group = SI1M.GROUPS[g - 1];
+    document.getElementById("greeting").textContent = "¡Hola, " + state.name + "!";
+    document.getElementById("subline").textContent =
+      "Week " + g + " of 4 — \"" + group.theme + "\" (Days " + group.days[0] + "–" + group.days[4] + ")";
+    renderGroupsBar(g);
+
+    var list = document.getElementById("weekList");
+    list.innerHTML = "";
+
+    group.days.forEach(function (day, i) {
+      var a = document.createElement("a");
+      a.className = "card-box";
+      a.href = "lesson.html?day=" + day;
+      var done = SI1M.sessionsDone(state, day);
+      var total = 2;
+      var statusCls = done >= total ? "status done" : "status";
+      var statusTxt = done >= total ? "✓ done" : done + " / " + total + " sessions";
+      var title = day === 1 ? "Day 1 · Welcome videos" : "Day " + day + " · Flashcards";
+      a.innerHTML = '<div class="day-row"><span class="dow">' + DOWS[i] + '</span>' +
+        '<span class="title">' + title + '</span>' +
+        '<span class="' + statusCls + '">' + statusTxt + "</span></div>";
+      list.appendChild(a);
+    });
+
+    // Saturday: review
+    var sat = document.createElement("div");
+    sat.className = "card-box";
+    sat.innerHTML = '<div class="day-row"><span class="dow">Sábado</span>' +
+      '<span class="title">Review</span>' +
+      '<span class="status">redo any day above</span></div>';
+    list.appendChild(sat);
+
+    // Sunday: quiz
+    var q = state.quiz[String(g)] || { attempts: 0, passed: false, best: 0 };
+    var quiz = document.createElement("a");
+    quiz.className = "card-box quiz-card" + (q.passed ? " passed" : "");
+    quiz.href = "quiz.html?group=" + g;
+    var qStatus = q.passed ? "✓ passed" :
+      (q.attempts > 0 ? "best " + q.best + "/10 — retake" : "pass to unlock week " + (g + 1));
+    quiz.innerHTML = '<div class="day-row"><span class="dow">Domingo</span>' +
+      '<span class="title">' + group.theme + " Quiz</span>" +
+      '<span class="status' + (q.passed ? " done" : "") + '">' + qStatus + "</span></div>";
+    list.appendChild(quiz);
+  }
+
+  function renderGroupsBar(current) {
+    var bar = document.getElementById("groupsBar");
+    bar.innerHTML = "";
+    SI1M.GROUPS.forEach(function (grp) {
+      var d = document.createElement("div");
+      d.className = "g" + (grp.n < current ? " done" : grp.n === current ? " current" : "");
+      bar.appendChild(d);
+    });
+  }
+
+  boot();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "day": 7,
+  "generated_at": "2026-07-18T00:00:00+00:00",
+  "cards": [
+    {"english": "Are you the doctor, sir?", "answer": "**¿Es** **usted** **el** doctor, sir?"},
+    {"english": "Sir, you are very kind.", "answer": "Sir, **usted** **es** very kind."},
+    {"english": "Is she the teacher? Yes, she is.", "answer": "**¿Es** she **la** teacher? Yes, **lo** **es**."},
+    {"english": "Are you tired? I believe so.", "answer": "Are you tired? I **lo** believe."},
+    {"english": "You are the owner of the restaurant, right?", "answer": "**Usted** **es** **el** owner **de** **el** restaurant, right?"},
+    {"english": "Am I the winner? Yes, you are.", "answer": "**¿Soy** **el** winner? Yes, **lo** **eres**."},
+    {"english": "Madam, you are in the wrong seat.", "answer": "Madam, **usted** is **en** **el** wrong seat."},
+    {"english": "They say the house is old, and it is.", "answer": "They say **que** **la** house **es** old, **y** **lo** **es**."},
+    {"english": "Are you the new manager? I am.", "answer": "**¿Es** **usted** **el** new manager? **Lo** **soy**."},
+    {"english": "He seems like a good man, and he is.", "answer": "He seems like **un** good man, **y** **lo** **es**."},
+    {"english": "Sir, is this seat for you?", "answer": "Sir, is this seat **para** **usted**?"},
+    {"english": "You are a great cook; you really are.", "answer": "**Usted** **es** **una** great cook; you really **lo** **es**."},
+    {"english": "Is that important? It is.", "answer": "**¿Es** **eso** important? **Lo** **es**."},
+    {"english": "Why are you so generous with me, sir?", "answer": "**¿Por qué** **es** **usted** so generous **con** **me**, sir?"},
+    {"english": "The problem is difficult, and it will be for a while.", "answer": "**El** problem **es** difficult, **y** **lo** will be **por** a while."},
+    {"english": "You are not the first person to say that.", "answer": "**Usted** **no** **es** **la** first person **a** say **eso**."},
+    {"english": "Are they rich? They are.", "answer": "**¿Son** they rich? **Lo** **son**."},
+    {"english": "Madam, you are the best client of the store.", "answer": "Madam, **usted** **es** **la** best client **de** **la** store."},
+    {"english": "We are a good team, and we know it.", "answer": "**Somos** **un** good team, **y** we **lo** know."},
+    {"english": "Is the answer correct? I believe so.", "answer": "**¿Es** **la** answer correct? I **lo** believe."}
+  ]
+}

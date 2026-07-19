@@ -1,0 +1,26 @@
+{
+  "day": 11,
+  "generated_at": "2026-07-18T00:00:00+00:00",
+  "cards": [
+    {"english": "My friend is here with his sister.", "answer": "**Mi** **amigo** **está** **aquí** **con** **su** sister."},
+    {"english": "I want a thing from the store.", "answer": "**Quiero** **una** **cosa** **de** **la** store."},
+    {"english": "Do you want my help?", "answer": "**¿Quieres** **mi** help?"},
+    {"english": "Your keys are in my car.", "answer": "**Tus** keys **están** **en** **mi** car."},
+    {"english": "Her friend was my teacher.", "answer": "**Su** **amiga** **era** **mi** teacher."},
+    {"english": "I want to see your new house.", "answer": "**Quiero** see **tu** new house."},
+    {"english": "My things are here, and your things are there.", "answer": "**Mis** **cosas** **están** **aquí**, **y** **tus** **cosas** are there."},
+    {"english": "That is not my problem; it is his problem.", "answer": "**Eso** **no** **es** **mi** problem; **es** **su** problem."},
+    {"english": "My friend wants a coffee with milk.", "answer": "**Mi** **amigo** wants **un** coffee **con** milk."},
+    {"english": "Do you want to be my friend?", "answer": "**¿Quieres** be **mi** **amigo**?"},
+    {"english": "Your parents were with my parents at the party.", "answer": "**Tus** parents **estaban** **con** **mis** parents **en** **la** party."},
+    {"english": "I want that thing for my birthday.", "answer": "**Quiero** that **cosa** **para** **mi** birthday."},
+    {"english": "Her house is old, but her garden is beautiful.", "answer": "**Su** house **es** old, but **su** garden **es** beautiful."},
+    {"english": "I hope your friend is okay.", "answer": "I hope **que** **tu** **amigo** **esté** okay."},
+    {"english": "My sister and her friend are teachers.", "answer": "**Mi** sister **y** **su** **amiga** **son** teachers."},
+    {"english": "Do you want my ticket? I do not want it.", "answer": "**¿Quieres** **mi** ticket? I **no** **lo** **quiero**."},
+    {"english": "Their books are on my table.", "answer": "**Sus** books **están** **en** **mi** table."},
+    {"english": "I want a house with a big kitchen.", "answer": "**Quiero** **una** house **con** **una** big kitchen."},
+    {"english": "Why do you want his things?", "answer": "**¿Por qué** **quieres** **sus** **cosas**?"},
+    {"english": "My friends are my treasure.", "answer": "**Mis** **amigos** **son** **mi** treasure."}
+  ]
+}

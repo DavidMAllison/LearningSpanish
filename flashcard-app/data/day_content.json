@@ -1,0 +1,327 @@
+{
+  "1": {
+    "label": "Foundation",
+    "summary": "Introduction to the SI1M Challenge and course overview.",
+    "videos": [
+      {"name": "Welcome!", "youtubeId": "jZv7sCb7fUc"},
+      {"name": "The Motivation Formula", "youtubeId": "Lplb5jF4OKE"},
+      {"name": "Your Fluency Foundation", "youtubeId": "vMKMLUSd-9U"},
+      {"name": "My Challenge for You This Week", "youtubeId": "erS_L5mzuEM"},
+      {"name": "Day 1 Quiz", "youtubeId": "1omSuAof5Ro"},
+      {"name": "Assignments", "youtubeId": "WOL452KH52c"}
+    ],
+    "pdfs": [],
+    "links": []
+  },
+  "2": {
+    "label": "Foundation",
+    "summary": "Learn prepositions (que, y, a, de) and the demonstrative 'eso'.",
+    "videos": [
+      {"name": "Day 2 Introduction", "youtubeId": "kCU8tjzGgXk"},
+      {"name": "Parts of Speech", "youtubeId": "ePegkiyISu8"},
+      {"name": "The Words That Will Make You Fluent", "youtubeId": "3ItBnkY1LOo"},
+      {"name": "Pre-Food", "youtubeId": "7DrkLb0Bsa4"},
+      {"name": "Day 2 Quiz, Quiz Transcript", "youtubeId": "2v-IWp9tX7o"},
+      {"name": "Assignments", "youtubeId": "PKyVGbwKD98"}
+    ],
+    "pdfs": [
+      {"name": "Day 2 Quiz Transcript", "path": "Day2/Day 2 Quiz Transcript.pdf", "type": "quiz"}
+    ],
+    "links": []
+  },
+  "3": {
+    "label": "Foundation",
+    "summary": "Master articles (el, la), direct object pronouns (lo, la), and negation (no).",
+    "videos": [
+      {"name": "Day 3 Intro", "youtubeId": "XTOK6zS8X7Q"},
+      {"name": "Him and Her", "youtubeId": "_DBQquMY2-Q"},
+      {"name": "\"The\" and \"The\"", "youtubeId": "NNcPR6rKl24"},
+      {"name": "Not \"No\".", "youtubeId": "QknM-8b3iSQ"},
+      {"name": "Day 3 Quiz, Quiz Transcript", "youtubeId": "J5tNAaZAbhw"},
+      {"name": "Assignments", "youtubeId": "DDT4B2e-tN8"}
+    ],
+    "pdfs": [
+      {"name": "Day 3 Quiz Transcript", "path": "Day3/Day 3 Quiz Transcript.pdf", "type": "quiz"}
+    ],
+    "links": []
+  },
+  "4": {
+    "label": "Foundation",
+    "summary": "Indefinite articles (un, una), more pronouns (me, te), and question words.",
+    "videos": [
+      {"name": "Day 4 Intro", "youtubeId": "vjdK_F9pJf8"},
+      {"name": "Lo, La, Me, Te: A Memory Palace", "youtubeId": "D20YG3cIlEI"},
+      {"name": "Un, Una", "youtubeId": "TYUmYhcntq4"},
+      {"name": "What?!", "youtubeId": "T-KSJP0Gp9g"},
+      {"name": "Day 4 Quiz, Quiz Transcript", "youtubeId": "VRTKC2EfN2U"},
+      {"name": "Assignments", "youtubeId": "U8UG4Wd_ILw"}
+    ],
+    "pdfs": [
+      {"name": "Day 4 Quiz Transcript", "path": "Day4/Day 4 Quiz Transcript.pdf", "type": "quiz"}
+    ],
+    "links": []
+  },
+  "5": {
+    "label": "Foundation",
+    "summary": "Plural articles (los, las), prepositions (por, para, en, con), and key phrases.",
+    "videos": [
+      {"name": "Congratulations: The 5th Day!", "youtubeId": "U_s8jTDINJw"},
+      {"name": "More About De", "youtubeId": "cG3G7nE0v4I"},
+      {"name": "Por, Para, and More Prepositions", "youtubeId": "OtRaYChoZRM"},
+      {"name": "Los. Las. Los. Las.", "youtubeId": "CIvg_qKBJ_w"},
+      {"name": "More About Que", "youtubeId": "OTtIHz1LMjg"},
+      {"name": "Day 5 Quiz, Quiz Transcript", "youtubeId": "UPXXH1A0QBE"},
+      {"name": "Weekend Assignments, Vocabulary List", "youtubeId": "GWDZUowIgos"}
+    ],
+    "pdfs": [
+      {"name": "Day 5 Quiz Transcript", "path": "Day5/Day 5 Quiz Transcript.pdf", "type": "quiz"},
+      {"name": "1MC Dictionary", "path": "Day5/1MC - Dictionary - 1MC - August (1).pdf", "type": "reference"},
+      {"name": "Week 1 Memory Palace", "path": "Day5/si1m week 1 memory palace images.pdf", "type": "memory-palace"}
+    ],
+    "links": [
+      {"name": "Quizlet Flashcards", "url": "https://quizlet.com/714175229/one-month-challenge-week-1-vocabulary-flash-cards/"}
+    ]
+  },
+  "6": {
+    "label": "Mortar",
+    "summary": "Introduction to ser conjugations: soy, eres, es, somos, son.",
+    "videos": [
+      {"name": "Verbs", "youtubeId": "b21LyLo4jxw"},
+      {"name": "Ser", "youtubeId": "aLWWkk0BERo"},
+      {"name": "When To Use Ser", "youtubeId": "Dn41y32XIvQ"},
+      {"name": "Quiz 6, Quiz Transcript", "youtubeId": "euBoO4i9IX8"},
+      {"name": "Assignments", "youtubeId": "GsUcKXFmzR4"}
+    ],
+    "pdfs": [
+      {"name": "Day 6 Quiz Transcript", "path": "Day6/Day 6 Quiz Transcript.pdf", "type": "quiz"}
+    ],
+    "links": []
+  },
+  "7": {
+    "label": "Mortar",
+    "summary": "Lo as attribute pronoun, formal 'usted', and dropped subject pronouns.",
+    "videos": [
+      {"name": "More about Ser", "youtubeId": "zt7hmeypFNs"},
+      {"name": "Disappearing Subjects", "youtubeId": "UmDE_4VODFc"},
+      {"name": "Quizzing with Dropped Subject Pronoun", "youtubeId": "Lf80hfor85g"},
+      {"name": "Ser and Prepositions", "youtubeId": "abUHyuKnb1w"},
+      {"name": "Ser and Que", "youtubeId": "og1V2MNzK6Y"},
+      {"name": "Ser and Lo", "youtubeId": "UdIsAzpzYlw"},
+      {"name": "Quiz 7, Quiz Transcript", "youtubeId": "VFU2dmeYW6s"},
+      {"name": "Assignments", "youtubeId": "4_1o0_5u1hg"}
+    ],
+    "pdfs": [
+      {"name": "Day 7 Quiz Transcript", "path": "Day7/Day 7 Quiz Transcript.pdf", "type": "quiz"},
+      {"name": "Keeping or Dropping Subject Pronouns", "path": "Day7/Keeping or dropping subjects pronouns (1).pdf", "type": "reference"}
+    ],
+    "links": []
+  },
+  "8": {
+    "label": "Mortar",
+    "summary": "Introduction to estar conjugations: estoy, estas, esta, estamos, estan.",
+    "videos": [
+      {"name": "Estar", "youtubeId": "9JXP-b7kWWQ"},
+      {"name": "First Quiz", "youtubeId": "7vtLcqwjRX0"},
+      {"name": "Final Quiz", "youtubeId": "Ltoz9SEKdt4"},
+      {"name": "Assignments", "youtubeId": "9zXiVYdZZmQ"}
+    ],
+    "pdfs": [
+      {"name": "Day 8 First Quiz Transcript", "path": "Day8/Day 8 - First Quiz Transcript.pdf", "type": "quiz"},
+      {"name": "Day 8 Quiz Transcript", "path": "Day8/Day 8 Quiz Transcript.pdf", "type": "quiz"}
+    ],
+    "links": []
+  },
+  "9": {
+    "label": "Mortar",
+    "summary": "Past tense: imperfect forms of ser (era, eras) and estar (estaba, estabas).",
+    "videos": [
+      {"name": "The Past Tense", "youtubeId": "8ENTwJzXzzo"},
+      {"name": "Quiz", "youtubeId": "QFVPbv5pJY8"},
+      {"name": "Assignments", "youtubeId": "Sgk_Q8zDOC8"}
+    ],
+    "pdfs": [
+      {"name": "Day 9 Quiz Transcript", "path": "Day9/Day 9 Quiz Transcript.pdf", "type": "quiz"}
+    ],
+    "links": []
+  },
+  "10": {
+    "label": "Mortar",
+    "summary": "Subjunctive mood for ser (sea, seas) and estar (este, estes).",
+    "videos": [
+      {"name": "Subjunctives: Ser", "youtubeId": "wxE26xcUGBg"},
+      {"name": "Subjunctives: Estar", "youtubeId": "k0u-PY3NmVk"},
+      {"name": "Quiz", "youtubeId": "LTdAaZJGXF8"},
+      {"name": "Weekend Assignments", "youtubeId": "RpJMwwxJ-mY"}
+    ],
+    "pdfs": [
+      {"name": "Day 10 Quiz Transcript", "path": "Day10/Day 10 Quiz Transcript.pdf", "type": "quiz"},
+      {"name": "Week 2 Vocabulary", "path": "Day10/Week 2 Vocabulary.pdf", "type": "vocabulary"},
+      {"name": "Week 2 Memory Palace", "path": "Day10/si1m week 2 memory palace images.pdf", "type": "memory-palace"}
+    ],
+    "links": [
+      {"name": "Vocabulary List (Google Drive)", "url": "https://drive.google.com/file/d/1QvhAJ2JpDCHgByoa6d5zem1K7bZK_RAp/view?usp=sharing"},
+      {"name": "Memory Palace Download (Google Drive)", "url": "https://drive.google.com/file/d/16sVEmA9iRcon9eqWJPueda9iF_3yue3T/view?usp=sharing"}
+    ]
+  },
+  "11": {
+    "label": "Bricks",
+    "summary": "Possessive pronouns (mi, tu, su) and querer conjugations.",
+    "videos": [
+      {"name": "Introduction to Week 3", "youtubeId": "QOA14NjAHvo"},
+      {"name": "Possessive Pronouns", "youtubeId": "S3kn4QPS7KA"},
+      {"name": "\"Want\" Subjunctives", "youtubeId": "A5SvudqDamQ"},
+      {"name": "Quiz Transcript", "youtubeId": "tvCtMcIsxFU"},
+      {"name": "Assignments", "youtubeId": "iMi8pr2NXJM"}
+    ],
+    "pdfs": [
+      {"name": "Day 11 Quiz Transcript", "path": "Day11/Day 11 Quiz Transcript (1).pdf", "type": "quiz"}
+    ],
+    "links": []
+  },
+  "12": {
+    "label": "Bricks",
+    "summary": "Para intentions and emotional subjunctives (review day).",
+    "videos": [
+      {"name": "\"Para\" Intentions", "youtubeId": "cb8-QCvigyY"},
+      {"name": "Emotional Subjunctives", "youtubeId": "8x_DeZRqcAk"},
+      {"name": "Quiz Transcript", "youtubeId": "SWBkSsvUpik"},
+      {"name": "Assignments", "youtubeId": "bbeVhvF5-9g"}
+    ],
+    "pdfs": [
+      {"name": "Day 12 Quiz Transcript", "path": "Day12/Day 12 Quiz Transcript (1).pdf", "type": "quiz"}
+    ],
+    "links": []
+  },
+  "13": {
+    "label": "Bricks",
+    "summary": "Conjunctions (o, si, cuando, pero), haber conjugations, and gerunds.",
+    "videos": [
+      {"name": "Conjunctions", "youtubeId": "Fs2c_nKyhTg"},
+      {"name": "Haber", "youtubeId": "vGihMlk3WmY"},
+      {"name": "Gerunds", "youtubeId": "MN1Xz-h3kHM"},
+      {"name": "Verb Phrases", "youtubeId": "LXpPcgVjq3U"},
+      {"name": "Quiz Transcript", "youtubeId": "Ike9EIIn4jU"}
+    ],
+    "pdfs": [
+      {"name": "Day 13 Quiz Transcript", "path": "Day13/Day 13 Quiz Transcript.pdf", "type": "quiz"},
+      {"name": "The Subjunctive Mood in the 1 Month Challenge", "path": "Day13/The Subjunctive Mood in the 1 Month Challenge (1).pdf", "type": "reference"}
+    ],
+    "links": []
+  },
+  "14": {
+    "label": "Bricks",
+    "summary": "Subject pronouns (yo, tu, el), indirect object pronouns (le, les), and hacer.",
+    "videos": [
+      {"name": "Subject Pronoun", "youtubeId": "_NaOKjttQuI"},
+      {"name": "Hacer", "youtubeId": "W7CS3WqQTK4"},
+      {"name": "Indirect Object Pronouns", "youtubeId": "zBc8UvJwAqo"},
+      {"name": "Quiz Transcript", "youtubeId": "AeQZJ7c5XCQ"}
+    ],
+    "pdfs": [
+      {"name": "Day 14 Quiz Transcript", "path": "Day14/Day 14 Quiz Transcript (1).pdf", "type": "quiz"}
+    ],
+    "links": [
+      {"name": "Quiz Transcripts Week 3 (Google Doc)", "url": "https://docs.google.com/document/d/1Hdo_tsovDcsikIpT--NqMwj2L0UrWgPy47U7FW8IF1w/edit?usp=sharing"}
+    ]
+  },
+  "15": {
+    "label": "Bricks",
+    "summary": "Reflexive pronouns, ir conjugations (voy, vas, va), and del/al contractions.",
+    "videos": [
+      {"name": "Ir", "youtubeId": "AwLgObiLzQw"},
+      {"name": "Future", "youtubeId": "NClYUFY6ojY"},
+      {"name": "Reflexive Pronouns", "youtubeId": "X01TDz4iFYA"},
+      {"name": "\"Leave\"", "youtubeId": "pXy_fF7JsJ0"},
+      {"name": "Quiz Transcript", "youtubeId": "rxj7gSlzfNA"},
+      {"name": "Weekend Assignments", "youtubeId": "7JrMk9mtA9o"}
+    ],
+    "pdfs": [
+      {"name": "Day 15 Quiz Transcript", "path": "Day15/Day 15 Quiz Transcript.pdf", "type": "quiz"},
+      {"name": "Week 3 Vocabulary", "path": "Day15/Week 3 Vocabulary.pdf", "type": "vocabulary"},
+      {"name": "Week 3 Memory Palace", "path": "Day15/si1m week 3 memory palace images.pdf", "type": "memory-palace"}
+    ],
+    "links": [
+      {"name": "Vocabulary List (Google Drive)", "url": "https://drive.google.com/file/d/1SHNcJOXgDfYSv01Di_CTC_tEhAWqEJGS/view?usp=sharing"},
+      {"name": "Memory Palace (Dropbox)", "url": "https://www.dropbox.com/s/wqbzkzyg537xp6u/si1m%20week%203%20memory%20palace%20images.pdf?dl=0"},
+      {"name": "Quizlet Flashcards", "url": "https://quizlet.com/714175829/one-month-challenge-week-3-vocabulary-flash-cards/"}
+    ]
+  },
+  "16": {
+    "label": "Decoration",
+    "summary": "Demonstrative pronouns (esto, este, esta, ese) and common nouns.",
+    "videos": [
+      {"name": "Welcome to Decoration!", "youtubeId": "hSpI57OCYBA"},
+      {"name": "\"This\" and \"That\"", "youtubeId": "iO2qAhyoOsw"},
+      {"name": "Time Nouns", "youtubeId": "jdbIeWx-ONA"},
+      {"name": "More Nouns", "youtubeId": "0COAiTdhep0"},
+      {"name": "Quiz", "youtubeId": "VmwIwDWwKk0"}
+    ],
+    "pdfs": [
+      {"name": "Day 16 Quiz Transcript", "path": "Day16/Day 16 Quiz Transcript.pdf", "type": "quiz"}
+    ],
+    "links": []
+  },
+  "17": {
+    "label": "Decoration",
+    "summary": "Indefinite pronouns (nada, algo, todo), tener, and adjectives (bueno, mas).",
+    "videos": [
+      {"name": "Have", "youtubeId": "vPygEy1gJBY"},
+      {"name": "Nothing, Something, Everything", "youtubeId": "vmlhm0mYHx0"},
+      {"name": "Bueno and M\u00e1s", "youtubeId": "c8FBS9F6FQk"},
+      {"name": "el que, la que, lo que", "youtubeId": "0gGk8o4wNxg"},
+      {"name": "Uno and Dos", "youtubeId": "TXJ2Roh2AxE"},
+      {"name": "Quiz", "youtubeId": "Q7Db9olCzjM"}
+    ],
+    "pdfs": [
+      {"name": "Day 17 Quiz Transcript", "path": "Day17/Day 17 Quiz Transcript.pdf", "type": "quiz"},
+      {"name": "Algo Memory Palace", "path": "Day17/Algo Memory Palace.pdf", "type": "memory-palace"}
+    ],
+    "links": []
+  },
+  "18": {
+    "label": "Decoration",
+    "summary": "Prepositional pronouns (mi, ti, conmigo), adverbs, and question words.",
+    "videos": [
+      {"name": "Prepositional Pronouns", "youtubeId": "0yu6BV-YL70"},
+      {"name": "\"Yes\" and \"Only\"", "youtubeId": "Xm7LgBr-g4w"},
+      {"name": "Questions", "youtubeId": "KhQ9MWpplog"},
+      {"name": "\"How\" Adverbs", "youtubeId": "_9WmP5Z3SBY"},
+      {"name": "\"When\" Adverbs", "youtubeId": "v7Sr9XCwFNw"},
+      {"name": "\"How Much\" Adverbs", "youtubeId": "n3UJ9EMFcU0"},
+      {"name": "Quiz", "youtubeId": "gEgJO6pmhmU"}
+    ],
+    "pdfs": [
+      {"name": "Day 18 Quiz Transcript", "path": "Day18/Day 18 Quiz Transcript.pdf", "type": "quiz"}
+    ],
+    "links": []
+  },
+  "19": {
+    "label": "Decoration",
+    "summary": "More verbs: saber (se, sabes), hay, puede, creo.",
+    "videos": [
+      {"name": "More Verbs", "youtubeId": "gg1FO2MWWsE"},
+      {"name": "Hay", "youtubeId": "vWeb2NQDsYQ"},
+      {"name": "Quiz", "youtubeId": "NBT7IsJ1z4g"}
+    ],
+    "pdfs": [
+      {"name": "Day 19 Quiz Transcript", "path": "Day19/Day 19 Quiz Transcript.pdf", "type": "quiz"}
+    ],
+    "links": []
+  },
+  "20": {
+    "label": "Decoration",
+    "summary": "Polite phrases and greetings: por favor, buenos dias, hola, gracias.",
+    "videos": [
+      {"name": "Greetings", "youtubeId": "yb2nK07pIqQ"},
+      {"name": "Other Polite Phrases", "youtubeId": "_2_Wd9Hj7w0"},
+      {"name": "Quiz", "youtubeId": "UMn1ZGvoxd8"}
+    ],
+    "pdfs": [
+      {"name": "Day 20 Quiz Transcript", "path": "Day20/Day 20 Quiz Transcript.pdf", "type": "quiz"},
+      {"name": "Week 4 Vocabulary", "path": "Day20/Week 4 Vocabulary.pdf", "type": "vocabulary"}
+    ],
+    "links": [
+      {"name": "Vocabulary List (Google Drive)", "url": "https://drive.google.com/file/d/1NlEDOubbVn4vPsKCjaE6bxpY2QzIKt5U/view?usp=sharing"}
+    ]
+  }
+}

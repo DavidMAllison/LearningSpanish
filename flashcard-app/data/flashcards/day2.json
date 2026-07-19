@@ -1,0 +1,86 @@
+{
+  "day": 2,
+  "generated_at": "2026-02-05T00:00:00+00:00",
+  "cards": [
+    {
+      "english": "He said that the food is from Mexico.",
+      "answer": "He said **que** the food is **de** Mexico."
+    },
+    {
+      "english": "They went to the park and played.",
+      "answer": "They went **a** the park **y** played."
+    },
+    {
+      "english": "She told me that she likes chocolate.",
+      "answer": "She told me **que** she likes chocolate."
+    },
+    {
+      "english": "That is what I wanted to say.",
+      "answer": "**Eso** is what I wanted **a** say."
+    },
+    {
+      "english": "The man from Brazil and the woman from Peru.",
+      "answer": "The man **de** Brazil **y** the woman **de** Peru."
+    },
+    {
+      "english": "I know that he went to the store.",
+      "answer": "I know **que** he went **a** the store."
+    },
+    {
+      "english": "That is hard to understand.",
+      "answer": "**Eso** is hard **a** understand."
+    },
+    {
+      "english": "We traveled to Spain and saw that castle.",
+      "answer": "We traveled **a** Spain **y** saw **eso** castle."
+    },
+    {
+      "english": "She said that and left.",
+      "answer": "She said **eso** **y** left."
+    },
+    {
+      "english": "The coffee from Colombia is the best.",
+      "answer": "The coffee **de** Colombia is the best."
+    },
+    {
+      "english": "I want to go to the beach and swim.",
+      "answer": "I want **a** go **a** the beach **y** swim."
+    },
+    {
+      "english": "He knows that his friend is from Argentina.",
+      "answer": "He knows **que** his friend is **de** Argentina."
+    },
+    {
+      "english": "That happened and nobody noticed.",
+      "answer": "**Eso** happened **y** nobody noticed."
+    },
+    {
+      "english": "I promised to bring that to the meeting.",
+      "answer": "I promised **a** bring **eso** **a** the meeting."
+    },
+    {
+      "english": "The students from the university and their teacher.",
+      "answer": "The students **de** the university **y** their teacher."
+    },
+    {
+      "english": "They believe that we are going to win.",
+      "answer": "They believe **que** we are going **a** win."
+    },
+    {
+      "english": "She went to the doctor and said that she was fine.",
+      "answer": "She went **a** the doctor **y** said **que** she was fine."
+    },
+    {
+      "english": "That is something that we need to discuss.",
+      "answer": "**Eso** is something **que** we need **a** discuss."
+    },
+    {
+      "english": "The music from that era and the culture of the time.",
+      "answer": "The music **de** **eso** era **y** the culture **de** the time."
+    },
+    {
+      "english": "I went to the market and bought that.",
+      "answer": "I went **a** the market **y** bought **eso**."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "day": 3,
+  "generated_at": "2026-07-18T00:00:00+00:00",
+  "cards": [
+    {"english": "The man does not know her.", "answer": "**El** man **no** **la** knows."},
+    {"english": "I see the house and the car.", "answer": "I see **la** house **y** **el** car."},
+    {"english": "No, that is not from my country.", "answer": "**No**, **eso** **no** is **de** my country."},
+    {"english": "She wants to see him.", "answer": "She wants **a** **lo** see."},
+    {"english": "The woman said that the door is open.", "answer": "**La** woman said **que** **la** door is open."},
+    {"english": "I do not like the movie.", "answer": "I **no** like **la** movie."},
+    {"english": "He took the book and read it.", "answer": "He took **el** book **y** **lo** read."},
+    {"english": "That is the problem.", "answer": "**Eso** is **el** problem."},
+    {"english": "The girl went to the school.", "answer": "**La** girl went **a** **la** school."},
+    {"english": "Do not tell her that.", "answer": "**No** **la** tell **eso**."},
+    {"english": "The sun and the moon.", "answer": "**El** sun **y** **la** moon."},
+    {"english": "I saw the dog and the cat.", "answer": "I saw **el** dog **y** **el** cat."},
+    {"english": "No, the party is not tonight.", "answer": "**No**, **la** party **no** is tonight."},
+    {"english": "The teacher knows him, and that is good.", "answer": "**El** teacher **lo** knows, **y** **eso** is good."},
+    {"english": "She does not want the coffee.", "answer": "She **no** wants **el** coffee."},
+    {"english": "I heard that the city is beautiful.", "answer": "I heard **que** **la** city is beautiful."},
+    {"english": "The boy broke the window, and the mother saw it.", "answer": "**El** boy broke **la** window, **y** **la** mother **la** saw."},
+    {"english": "That is not true.", "answer": "**Eso** **no** is true."},
+    {"english": "The music and the food of that country.", "answer": "**La** music **y** **la** food **de** that country."},
+    {"english": "He gave the money to the church.", "answer": "He gave **el** money **a** **la** church."}
+  ]
+}

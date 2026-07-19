@@ -1,0 +1,26 @@
+{
+  "day": 6,
+  "generated_at": "2026-07-18T00:00:00+00:00",
+  "cards": [
+    {"english": "I am a doctor, and she is a nurse.", "answer": "**Soy** **un** doctor, **y** she **es** **una** nurse."},
+    {"english": "You are the best student in the class.", "answer": "**Eres** **el** best student **en** **la** class."},
+    {"english": "We are friends, and that is important.", "answer": "**Somos** friends, **y** **eso** **es** important."},
+    {"english": "Why is the movie so long?", "answer": "**¿Por qué** **es** **la** movie so long?"},
+    {"english": "The keys are for the doors.", "answer": "**Las** keys **son** **para** **las** doors."},
+    {"english": "I am the father of the girls.", "answer": "**Soy** **el** father **de** **las** girls."},
+    {"english": "It is a gift for you, not for them.", "answer": "**Es** **un** gift **para** you, **no** **para** them."},
+    {"english": "The tomatoes are for the salad.", "answer": "**Los** tomatoes **son** **para** **la** salad."},
+    {"english": "She is my sister, and you are my friend.", "answer": "She **es** my sister, **y** **eres** my friend."},
+    {"english": "Why are you a teacher?", "answer": "**¿Por qué** **eres** **un** teacher?"},
+    {"english": "They are the winners, and that is good for us.", "answer": "They **son** **los** winners, **y** **eso** **es** good **para** us."},
+    {"english": "The meeting is at night, and it is important.", "answer": "**La** meeting **es** **en** **la** night, **y** **es** important."},
+    {"english": "I am not the boss; he is the boss.", "answer": "**No** **soy** **el** boss; he **es** **el** boss."},
+    {"english": "The shoes are new, and they are for the party.", "answer": "**Los** shoes **son** new, **y** **son** **para** **la** party."},
+    {"english": "You are very kind with the customers.", "answer": "**Eres** very kind **con** **los** customers."},
+    {"english": "Why is that a problem for the school?", "answer": "**¿Por qué** **es** **eso** **un** problem **para** **la** school?"},
+    {"english": "We are a family, and the family is everything.", "answer": "**Somos** **una** family, **y** **la** family **es** everything."},
+    {"english": "The books are for the students; that is why I bought them.", "answer": "**Los** books **son** **para** **los** students; **por eso** I **los** bought."},
+    {"english": "It is important that you study in the morning.", "answer": "**Es** important **que** you study **en** **la** morning."},
+    {"english": "I am tall, and my brothers are tall too.", "answer": "**Soy** tall, **y** my brothers **son** tall too."}
+  ]
+}

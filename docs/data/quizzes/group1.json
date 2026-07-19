@@ -1,0 +1,17 @@
+{
+  "group": 1,
+  "title": "Foundation Quiz (Days 1-5)",
+  "passScore": 8,
+  "questions": [
+    {"prompt": "Which word connects two ideas, as in \"He said ___ he knows her\"?", "options": ["eso", "que", "qué", "y"], "answer": 1},
+    {"prompt": "What does \"eso\" mean?", "options": ["this", "he", "that (standalone)", "the"], "answer": 2},
+    {"prompt": "Pick the correct Spanglish: \"The man from Ecuador says that he knows her.\"", "options": ["**El** man **de** Ecuador says **que** he **la** knows.", "**La** man **por** Ecuador says **eso** he knows **la**.", "**El** man **en** Ecuador says **que** he knows **la**.", "**Un** man **de** Ecuador says **y** he **la** knows."], "answer": 0},
+    {"prompt": "Which means \"why?\"", "options": ["para que", "por eso", "por qué", "con qué"], "answer": 2},
+    {"prompt": "Which means \"that's why\"?", "options": ["por eso", "para que", "por qué", "de eso"], "answer": 0},
+    {"prompt": "\"the books\" (plural, masculine) uses which article?", "options": ["las", "la", "el", "los"], "answer": 3},
+    {"prompt": "Pick the correct Spanglish: \"She sees me and I see you.\"", "options": ["She sees **mi** **y** I see **tu**.", "She **me** sees **y** I **te** see.", "She **te** sees **y** I **me** see.", "She sees **me** **por** I see **te**."], "answer": 1},
+    {"prompt": "\"I put the keys ___ the table, ___ the phone\" (in/on ... with):", "options": ["con ... en", "en ... con", "de ... por", "a ... para"], "answer": 1},
+    {"prompt": "Which pair is correct for \"a book\" and \"a house\"?", "options": ["una book, un house", "un book, un house", "un book, una house", "una book, una house"], "answer": 2},
+    {"prompt": "Pick the correct Spanglish: \"Why do you want that?\"", "options": ["**¿Para que** you want **eso**?", "**¿Por eso** you want **que**?", "**¿Qué** you want **por**?", "**¿Por qué** do you want **eso**?"], "answer": 3}
+  ]
+}

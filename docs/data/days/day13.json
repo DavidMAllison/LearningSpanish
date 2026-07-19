@@ -1,0 +1,26 @@
+{
+  "day": 13,
+  "generated_at": "2026-07-18T00:00:00+00:00",
+  "cards": [
+    {"english": "I have eaten in that restaurant.", "answer": "**He** **comido** **en** that restaurant."},
+    {"english": "Do you want tea or coffee?", "answer": "**¿Quieres** tea **o** coffee?"},
+    {"english": "If you are tired, we can rest.", "answer": "**Si** **estás** tired, we can rest."},
+    {"english": "She was eating when I arrived.", "answer": "She **estaba** **comiendo** when I arrived."},
+    {"english": "We have been friends for years.", "answer": "**Hemos** **sido** **amigos** **por** years."},
+    {"english": "I want to eat, but the kitchen is closed.", "answer": "**Quiero** **comer**, **pero** **la** kitchen **está** closed."},
+    {"english": "He has been sick, and that is why he is in bed.", "answer": "He **ha** **estado** sick, **y** **por eso** **está** **en** bed."},
+    {"english": "When you are here, my house is happy.", "answer": "**Cuando** **estás** **aquí**, **mi** house **está** happy."},
+    {"english": "They have eaten all the bread because they were hungry.", "answer": "They **han** **comido** all **el** bread **porque** they were hungry."},
+    {"english": "Have you been in her new house?", "answer": "**¿Has** **estado** **en** **su** new house?"},
+    {"english": "If that is true, we have a problem.", "answer": "**Si** **eso** **es** true, we have **un** problem."},
+    {"english": "I was eating with my friends when you called.", "answer": "**Estaba** **comiendo** **con** **mis** **amigos** **cuando** you called."},
+    {"english": "It has been a long day, but it was a good day.", "answer": "**Ha** **sido** **un** long day, **pero** **era** **un** good day."},
+    {"english": "Do you want to eat here or in the garden?", "answer": "**¿Quieres** **comer** **aquí** **o** **en** **el** garden?"},
+    {"english": "We have been here since the morning.", "answer": "**Hemos** **estado** **aquí** since **la** morning."},
+    {"english": "She does not want to eat because she has eaten.", "answer": "She **no** wants **a** **comer** **porque** **ha** **comido**."},
+    {"english": "Being honest has been my policy.", "answer": "**Siendo** honest **ha** **sido** **mi** policy."},
+    {"english": "If you want, we can eat when the game is over.", "answer": "**Si** **quieres**, we can **comer** **cuando** **el** game **está** over."},
+    {"english": "I have not eaten today, and I am hungry.", "answer": "**No** **he** **comido** today, **y** I am hungry."},
+    {"english": "The children were eating, but now they are playing.", "answer": "**Los** children **estaban** **comiendo**, **pero** now **están** playing."}
+  ]
+}

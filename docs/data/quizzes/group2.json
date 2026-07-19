@@ -1,0 +1,17 @@
+{
+  "group": 2,
+  "title": "Mortar Quiz (Days 6-10)",
+  "passScore": 8,
+  "questions": [
+    {"prompt": "\"I am a teacher\" (identity) uses which verb form?", "options": ["estoy", "soy", "es", "está"], "answer": 1},
+    {"prompt": "\"I am here\" (location) uses which verb form?", "options": ["soy", "eres", "estoy", "sea"], "answer": 2},
+    {"prompt": "Pick the correct Spanglish: \"The keys are on the table.\"", "options": ["**Las** keys **son** **en** **la** table.", "**Las** keys **están** **en** **la** table.", "**Los** keys **están** **con** **la** table.", "**Las** keys **estén** **en** **la** table."], "answer": 1},
+    {"prompt": "What does \"usted\" mean?", "options": ["you (formal)", "he", "we", "you all"], "answer": 0},
+    {"prompt": "\"We are friends\" uses:", "options": ["estamos", "son", "somos", "seamos"], "answer": 2},
+    {"prompt": "\"She was sick\" (temporary state, past) uses:", "options": ["era", "estaba", "esté", "es"], "answer": 1},
+    {"prompt": "\"He was the boss\" (identity, past) uses:", "options": ["estaba", "sea", "era", "está"], "answer": 2},
+    {"prompt": "Pick the correct Spanglish: \"Study so that you are ready.\"", "options": ["Study **para que** **estés** ready.", "Study **por qué** **estás** ready.", "Study **para que** **eres** ready.", "Study **que** **estabas** ready."], "answer": 0},
+    {"prompt": "\"I hope that it is not a problem\" — the correct subjunctive is:", "options": ["I hope **que** **no** **es** **un** problem.", "I hope **que** **no** **sea** **un** problem.", "I hope **que** **no** **era** **un** problem.", "I hope **que** **no** **estés** **un** problem."], "answer": 1},
+    {"prompt": "What does \"aquí\" mean?", "options": ["there", "now", "here", "today"], "answer": 2}
+  ]
+}

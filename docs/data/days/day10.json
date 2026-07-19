@@ -1,0 +1,26 @@
+{
+  "day": 10,
+  "generated_at": "2026-07-18T00:00:00+00:00",
+  "cards": [
+    {"english": "I hope that she is okay.", "answer": "I hope **que** she **esté** okay."},
+    {"english": "I want you to be happy.", "answer": "I want **que** you **estés** happy."},
+    {"english": "Study so that you are ready.", "answer": "Study **para que** you **estés** ready."},
+    {"english": "It is important that he is honest.", "answer": "**Es** important **que** he **sea** honest."},
+    {"english": "I hope the food is hot when we arrive.", "answer": "I hope **que** **la** food **esté** hot when we arrive."},
+    {"english": "They want us to be a team.", "answer": "They want **que** we **seamos** **un** team."},
+    {"english": "I doubt that they are here.", "answer": "I doubt **que** **estén** **aquí**."},
+    {"english": "Work hard so that you are the best.", "answer": "Work hard **para que** **seas** **el** best."},
+    {"english": "It is possible that the store is closed.", "answer": "**Es** possible **que** **la** store **esté** closed."},
+    {"english": "I hope that we are ready for the trip.", "answer": "I hope **que** **estemos** ready **para** **el** trip."},
+    {"english": "She wants the house to be clean.", "answer": "She wants **que** **la** house **esté** clean."},
+    {"english": "It is necessary that they are honest with the teacher.", "answer": "**Es** necessary **que** **sean** honest **con** **el** teacher."},
+    {"english": "I called so that you are not alone.", "answer": "I called **para que** **no** **estés** alone."},
+    {"english": "I hope it is not a problem.", "answer": "I hope **que** **no** **sea** **un** problem."},
+    {"english": "Whatever it is, it is not important.", "answer": "Whatever **sea**, **no** **es** important."},
+    {"english": "We save money so that the future is good.", "answer": "We save money **para que** **el** future **sea** good."},
+    {"english": "I doubt the coffee is still hot.", "answer": "I doubt **que** **el** coffee still **esté** hot."},
+    {"english": "It is strange that the doors are open.", "answer": "**Es** strange **que** **las** doors **estén** open."},
+    {"english": "They want me to be a doctor.", "answer": "They want **que** I **sea** **un** doctor."},
+    {"english": "Call me so that we are in contact.", "answer": "Call **me** **para que** **estemos** **en** contact."}
+  ]
+}

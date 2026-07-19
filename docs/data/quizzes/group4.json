@@ -1,0 +1,17 @@
+{
+  "group": 4,
+  "title": "Decoration Quiz (Days 16-20)",
+  "passScore": 8,
+  "questions": [
+    {"prompt": "\"this house\" is:", "options": ["**esa** **casa**", "**este** **casa**", "**esta** **casa**", "**esto** **casa**"], "answer": 2},
+    {"prompt": "What does \"la verdad\" mean?", "options": ["the time", "the truth", "the thing", "the day"], "answer": 1},
+    {"prompt": "\"I have two things\" is:", "options": ["**Tienes** **dos** **cosas**", "**Tengo** **dos** **cosas**", "**Tiene** **des** **cosas**", "**Tengo** **los dos** **cosas**"], "answer": 1},
+    {"prompt": "Which means \"nobody\"?", "options": ["nada", "alguien", "nadie", "todos"], "answer": 2},
+    {"prompt": "\"with me\" is:", "options": ["con mí", "conmigo", "con yo", "contigo"], "answer": 1},
+    {"prompt": "Pick the correct Spanglish: \"Where are you now?\"", "options": ["**¿Dónde** **estás** **ahora**?", "**¿Cómo** **estás** **ahora**?", "**¿Dónde** **eres** **ahora**?", "**¿Quién** **estás** **ahora**?"], "answer": 0},
+    {"prompt": "\"There are two houses\" uses:", "options": ["**están**", "**hay**", "**son**", "**tiene**"], "answer": 1},
+    {"prompt": "What does \"sé\" mean?", "options": ["I believe", "himself", "I know", "yes"], "answer": 2},
+    {"prompt": "\"Thank you\" and the reply \"you're welcome\" are:", "options": ["**por favor** / **de nada**", "**gracias** / **de nada**", "**gracias** / **por favor**", "**hola** / **adiós**"], "answer": 1},
+    {"prompt": "Pick the correct Spanglish: \"I believe that everything went very well.\"", "options": ["**Creo** **que** **todo** went **muy** **bien**.", "**Sé** **que** **nada** went **muy** **bien**.", "**Creo** **que** **todo** went **mal**.", "**Creo** **como** **todo** went **tan** **bien**."], "answer": 0}
+  ]
+}

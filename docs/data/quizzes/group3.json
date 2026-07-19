@@ -1,0 +1,17 @@
+{
+  "group": 3,
+  "title": "Bricks Quiz (Days 11-15)",
+  "passScore": 8,
+  "questions": [
+    {"prompt": "\"my friends\" (plural) is:", "options": ["mi amigos", "mis amigos", "su amigos", "mis amigo"], "answer": 1},
+    {"prompt": "What does \"quiero\" mean?", "options": ["you want", "I know", "I want", "I can"], "answer": 2},
+    {"prompt": "Pick the correct Spanglish: \"If you are tired, we can rest.\"", "options": ["**Si** **estás** tired, we can rest.", "**Sí** **eres** tired, we can rest.", "**Cuando** **estás** tired, we can rest.", "**Si** **estabas** tired, we can rest."], "answer": 0},
+    {"prompt": "\"I have eaten\" is:", "options": ["**Ha** **comido**", "**He** **comiendo**", "**He** **comido**", "**Has** **comer**"], "answer": 2},
+    {"prompt": "Which word means \"but\"?", "options": ["porque", "pero", "cuando", "o"], "answer": 1},
+    {"prompt": "\"I go to the place\" is:", "options": ["**Vas** **al** **lugar**", "**Voy** **del** **lugar**", "**Voy** **al** **lugar**", "**Va** **a** **el** **lugar**"], "answer": 2},
+    {"prompt": "\"del\" is the contraction of:", "options": ["de + la", "de + el", "a + el", "de + los"], "answer": 1},
+    {"prompt": "Pick the correct Spanglish: \"She told me a secret.\"", "options": ["**Ella** told **mí** **un** secret.", "**Ella** **me** told **un** secret.", "**Ella** **le** told **un** secret.", "**Ella** told **me** **una** secret."], "answer": 1},
+    {"prompt": "What does \"puedo\" mean?", "options": ["I want", "I can", "I do", "I go"], "answer": 1},
+    {"prompt": "\"He washes himself\" uses which reflexive pronoun?", "options": ["se", "me", "nos", "te"], "answer": 0}
+  ]
+}

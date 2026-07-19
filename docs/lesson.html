@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lesson</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🇪🇸</text></svg>">
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <h1 id="title">Lesson</h1>
+    <div class="sub" id="subline"></div>
+  </header>
+
+  <!-- Day 1: orientation videos -->
+  <div id="videosView" style="display:none;">
+    <p class="muted mt">Watch these short videos to get oriented, then mark the day done.</p>
+    <div id="videoLinks"></div>
+    <div class="btn-row">
+      <button class="btn" id="videosDoneBtn">Mark Day 1 done</button>
+      <a class="btn secondary" href="index.html">Back to week</a>
+    </div>
+  </div>
+
+  <!-- Days 2-20: flashcard session player -->
+  <div id="cardsView" style="display:none;">
+    <div class="progress-line" id="progressLine"></div>
+    <div class="flip-container" id="flipContainer">
+      <div class="flip-card" id="flipCard">
+        <div class="face front"><span class="label">English</span><div id="frontText"></div></div>
+        <div class="face back"><span class="label">Spanglish</span><div id="backText"></div></div>
+      </div>
+    </div>
+    <p class="muted center mt">Tap the card to flip it</p>
+    <div class="btn-row" style="justify-content:center;">
+      <button class="btn secondary" id="prevBtn">Previous</button>
+      <button class="btn" id="nextBtn">Next</button>
+    </div>
+  </div>
+
+  <!-- Session complete -->
+  <div id="doneView" class="card-box center" style="display:none;">
+    <div class="score-big" id="doneEmoji">🎉</div>
+    <p class="mt" id="doneText"></p>
+    <div class="btn-row" style="justify-content:center;">
+      <button class="btn" id="nextSessionBtn" style="display:none;">Next session →</button>
+      <a class="btn secondary" href="index.html">Back to week</a>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+<script>
+(function () {
+  var code = SI1M.currentCode();
+  if (!code) { location.href = "index.html"; return; }
+  var state = SI1M.load(code);
+  var day = parseInt(SI1M.param("day"), 10);
+  if (!day || day < 1 || day > 20) { location.href = "index.html"; return; }
+
+  var group = SI1M.groupOf(day);
+  document.getElementById("subline").textContent = group.theme + " · Week " + group.n;
+
+  // --- Day 1: orientation ---
+  var DAY1_VIDEOS = [
+    ["Welcome!", "jZv7sCb7fUc"],
+    ["The Motivation Formula", "Lplb5jF4OKE"],
+    ["Your Fluency Foundation", "vMKMLUSd-9U"],
+    ["My Challenge for You This Week", "erS_L5mzuEM"],
+    ["Day 1 Quiz", "1omSuAof5Ro"],
+    ["Assignments", "WOL452KH52c"]
+  ];
+
+  if (day === 1) {
+    document.getElementById("title").textContent = "Day 1 · Welcome";
+    var box = document.getElementById("videoLinks");
+    DAY1_VIDEOS.forEach(function (v) {
+      var a = document.createElement("a");
+      a.className = "video-item-link";
+      a.href = "https://www.youtube.com/watch?v=" + v[1];
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.textContent = "▶ " + v[0];
+      box.appendChild(a);
+    });
+    document.getElementById("videosDoneBtn").addEventListener("click", function () {
+      SI1M.markSession(code, state, 1, 0);
+      SI1M.markSession(code, state, 1, 1);
+      location.href = "index.html";
+    });
+    document.getElementById("videosView").style.display = "block";
+    return;
+  }
+
+  // --- Days 2-20: session player ---
+  var cards = [];
+  var sessionCards = [];
+  var sessionIndex = 0;
+  var totalSessions = 2;
+  var idx = 0;
+  var flipped = false;
+
+  var flipCard = document.getElementById("flipCard");
+  document.getElementById("flipContainer").addEventListener("click", function () {
+    flipped = !flipped;
+    flipCard.classList.toggle("flipped", flipped);
+  });
+
+  function slice() {
+    sessionCards = cards.slice(sessionIndex * SI1M.SESSION_SIZE, (sessionIndex + 1) * SI1M.SESSION_SIZE);
+  }
+
+  function render() {
+    document.getElementById("cardsView").style.display = "block";
+    document.getElementById("doneView").style.display = "none";
+    var c = sessionCards[idx];
+    document.getElementById("frontText").textContent = c.english;
+    document.getElementById("backText").innerHTML =
+      c.answer.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+    document.getElementById("progressLine").textContent =
+      "Card " + (idx + 1) + " of " + sessionCards.length + " · Session " + (sessionIndex + 1) + " of " + totalSessions;
+    document.getElementById("prevBtn").disabled = idx === 0;
+    flipped = false;
+    flipCard.classList.remove("flipped");
+  }
+
+  function finishSession() {
+    SI1M.markSession(code, state, day, sessionIndex);
+    document.getElementById("cardsView").style.display = "none";
+    document.getElementById("doneView").style.display = "block";
+    var last = sessionIndex >= totalSessions - 1;
+    document.getElementById("doneText").textContent = last
+      ? "Day " + day + " complete. ¡Muy bien!"
+      : "Session " + (sessionIndex + 1) + " done!";
+    document.getElementById("nextSessionBtn").style.display = last ? "none" : "inline-block";
+  }
+
+  document.getElementById("prevBtn").addEventListener("click", function () {
+    if (idx > 0) { idx--; render(); }
+  });
+  document.getElementById("nextBtn").addEventListener("click", function () {
+    if (idx < sessionCards.length - 1) { idx++; render(); }
+    else finishSession();
+  });
+  document.getElementById("nextSessionBtn").addEventListener("click", function () {
+    sessionIndex++;
+    idx = 0;
+    slice();
+    render();
+  });
+
+  fetch("data/days/day" + day + ".json")
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      cards = d.cards || [];
+      totalSessions = Math.max(1, Math.ceil(cards.length / SI1M.SESSION_SIZE));
+      // Resume at first incomplete session
+      var done = state.sessions[String(day)] || [];
+      sessionIndex = 0;
+      while (done.indexOf(sessionIndex) !== -1 && sessionIndex < totalSessions - 1) sessionIndex++;
+      document.getElementById("title").textContent = "Day " + day;
+      slice();
+      render();
+    })
+    .catch(function () {
+      document.getElementById("title").textContent = "Day " + day;
+      document.getElementById("subline").textContent = "Could not load this lesson.";
+    });
+})();
+</script>
+</body>
+</html>

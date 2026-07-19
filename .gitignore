@@ -1,0 +1,13 @@
+# Course materials — large videos and copyrighted PDFs, never publish
+LLMContext/
+*.mp4
+*.pdf
+
+# Private config — contains phone numbers / iMessage handles
+scripts/sms_config.json
+
+# Local junk
+.DS_Store
+.playwright-mcp/
+__pycache__/
+*.pyc

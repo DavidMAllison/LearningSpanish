@@ -1,0 +1,26 @@
+{
+  "day": 8,
+  "generated_at": "2026-07-18T00:00:00+00:00",
+  "cards": [
+    {"english": "I am here with the children.", "answer": "**Estoy** **aquí** **con** **los** children."},
+    {"english": "Where are you? I am in the kitchen.", "answer": "Where **estás**? **Estoy** **en** **la** kitchen."},
+    {"english": "The keys are here, on the table.", "answer": "**Las** keys **están** **aquí**, **en** **la** table."},
+    {"english": "She is sick, and that is why she is in bed.", "answer": "She **está** sick, **y** **por eso** **está** **en** bed."},
+    {"english": "We are in the car, waiting for you.", "answer": "**Estamos** **en** **el** car, waiting **por** you."},
+    {"english": "Are you here for the meeting, sir?", "answer": "**¿Está** **usted** **aquí** **para** **la** meeting, sir?"},
+    {"english": "The coffee is hot, and the water is cold.", "answer": "**El** coffee **está** hot, **y** **el** water **está** cold."},
+    {"english": "I am a teacher, but today I am at home.", "answer": "**Soy** **un** teacher, but today **estoy** **en** **la** house."},
+    {"english": "The children are happy because of the party.", "answer": "**Los** children **están** happy **por** **la** party."},
+    {"english": "Why are you here? The office is closed.", "answer": "**¿Por qué** **estás** **aquí**? **La** office **está** closed."},
+    {"english": "The dinner is ready, and we are hungry.", "answer": "**La** dinner **está** ready, **y** we are hungry."},
+    {"english": "He is angry with me, and I do not know why.", "answer": "He **está** angry **con** **me**, **y** I **no** know why."},
+    {"english": "The store is open, but the bank is closed.", "answer": "**La** store **está** open, but **el** bank **está** closed."},
+    {"english": "You are here, and that is a gift for me.", "answer": "**Estás** **aquí**, **y** **eso** **es** **un** gift **para** **me**."},
+    {"english": "We are near the river, not the lake.", "answer": "**Estamos** near **el** river, **no** **el** lake."},
+    {"english": "Is the boss here? Yes, he is in a meeting.", "answer": "**¿Está** **el** boss **aquí**? Yes, **está** **en** **una** meeting."},
+    {"english": "I am nervous because the test is today.", "answer": "**Estoy** nervous because **el** test **es** today."},
+    {"english": "The girls are in the school, and the boys are here.", "answer": "**Las** girls **están** **en** **la** school, **y** **los** boys **están** **aquí**."},
+    {"english": "The soup is delicious, and it is still hot.", "answer": "**La** soup **está** delicious, **y** still **está** hot."},
+    {"english": "You are sad; are you okay?", "answer": "**Estás** sad; **¿estás** okay?"}
+  ]
+}

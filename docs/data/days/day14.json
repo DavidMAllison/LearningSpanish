@@ -1,0 +1,26 @@
+{
+  "day": 14,
+  "generated_at": "2026-07-18T00:00:00+00:00",
+  "cards": [
+    {"english": "Can you do me a favor?", "answer": "Can you **me** **hacer** **un** **favor**?"},
+    {"english": "I can help you if you want.", "answer": "**Yo** **puedo** **te** help **si** **quieres**."},
+    {"english": "He gave us the tickets, and she gave them the food.", "answer": "**Él** **nos** gave **los** tickets, **y** **ella** **les** gave **la** food."},
+    {"english": "What are you doing? I am doing my homework.", "answer": "**¿Qué** **estás** **haciendo** **tú**? **Estoy** **haciendo** **mi** homework."},
+    {"english": "We want to do something good for them.", "answer": "**Nosotros** want **a** **hacer** something good **para** them."},
+    {"english": "She told me a secret, and I have not told him.", "answer": "**Ella** **me** told **un** secret, **y** **no** **le** **he** told."},
+    {"english": "They have done the work, and it was difficult.", "answer": "**Ellos** **han** **hecho** **el** work, **y** **era** difficult."},
+    {"english": "I can eat here if the kitchen is open.", "answer": "**Puedo** **comer** **aquí** **si** **la** kitchen **está** open."},
+    {"english": "He is my friend, and she is her friend.", "answer": "**Él** **es** **mi** **amigo**, **y** **ella** **es** **su** **amiga**."},
+    {"english": "Can you give us a minute, please?", "answer": "Can you **nos** give **un** minute, please?"},
+    {"english": "What have you done with my keys?", "answer": "**¿Qué** **has** **hecho** **tú** **con** **mis** keys?"},
+    {"english": "I was making dinner when they called us.", "answer": "**Yo** **estaba** **haciendo** dinner **cuando** **ellos** **nos** called."},
+    {"english": "Do me the favor of listening to her.", "answer": "**Hacer** **me** **el** **favor** **de** listening **a** **ella**."},
+    {"english": "I can be there if you need me.", "answer": "**Puedo** be there **si** **tú** **me** need."},
+    {"english": "They were doing nothing, but we were working.", "answer": "**Ellos** **no** **estaban** **haciendo** anything, **pero** **nosotros** were working."},
+    {"english": "She has made a cake for us.", "answer": "**Ella** **ha** **hecho** **un** cake **para** us."},
+    {"english": "If he wants, I can give him my ticket.", "answer": "**Si** **él** wants, **puedo** **le** give **mi** ticket."},
+    {"english": "You and I can do this together.", "answer": "**Tú** **y** **yo** can **hacer** this together."},
+    {"english": "What can I do for you, sir?", "answer": "**¿Qué** **puedo** **hacer** **para** **usted**, sir?"},
+    {"english": "They gave us a gift, and we gave them a card.", "answer": "**Ellos** **nos** gave **un** gift, **y** **nosotros** **les** gave **una** card."}
+  ]
+}

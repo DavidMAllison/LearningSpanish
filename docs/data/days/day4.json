@@ -1,0 +1,26 @@
+{
+  "day": 4,
+  "generated_at": "2026-07-18T00:00:00+00:00",
+  "cards": [
+    {"english": "He saw me yesterday.", "answer": "He **me** saw yesterday."},
+    {"english": "What a beautiful day!", "answer": "**¡Qué** beautiful day!"},
+    {"english": "I bought a book and a pen.", "answer": "I bought **un** book **y** **una** pen."},
+    {"english": "She loves you and wants to see you.", "answer": "She **te** loves **y** wants **a** **te** see."},
+    {"english": "What is that?", "answer": "**¿Qué** is **eso**?"},
+    {"english": "A friend gave me the ticket.", "answer": "**Un** friend **me** gave **el** ticket."},
+    {"english": "Do you see a table?", "answer": "Do you see **una** table?"},
+    {"english": "The dog does not like me.", "answer": "**El** dog **no** **me** likes."},
+    {"english": "I need a new car, not a bicycle.", "answer": "I need **un** new car, **no** **una** bicycle."},
+    {"english": "What do you want?", "answer": "**¿Qué** do you want?"},
+    {"english": "He told me that the house is big.", "answer": "He **me** told **que** **la** house is big."},
+    {"english": "A woman called you.", "answer": "**Una** woman **te** called."},
+    {"english": "That is a lie.", "answer": "**Eso** is **una** lie."},
+    {"english": "I want to help you.", "answer": "I want **a** **te** help."},
+    {"english": "What happened to the girl?", "answer": "**¿Qué** happened **a** **la** girl?"},
+    {"english": "The teacher gave me a good grade.", "answer": "**El** teacher **me** gave **una** good grade."},
+    {"english": "You have a message from the office.", "answer": "You have **un** message **de** **la** office."},
+    {"english": "What a surprise! I did not expect that.", "answer": "**¡Qué** surprise! I **no** expected **eso**."},
+    {"english": "She bought a gift and hid it.", "answer": "She bought **un** gift **y** **lo** hid."},
+    {"english": "I see you, and you see me.", "answer": "I **te** see, **y** you **me** see."}
+  ]
+}
