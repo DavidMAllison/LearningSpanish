@@ -13,7 +13,7 @@
   Sunday gate quiz (8/10 to unlock the next week). Fail = review and retake.
 - Each family member has a personal `?u=` link; per-person progress lives in
   their own phone's browser localStorage.
-- Every Sunday at 11:00pm a launchd job (`com.si1m.weekly-sms`) queues an
+- Every Sunday at 11:00am a launchd job (`com.si1m.weekly-sms`) queues an
   iMessage per person via Keanu's outbox with their personal link.
 
 ## History

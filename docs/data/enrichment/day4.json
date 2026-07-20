@@ -1,0 +1,59 @@
+{
+  "day": 4,
+  "updated": "2026-07-20",
+  "topic": "Un/una articles, me/te pronouns, and qué",
+  "tips": [
+    {
+      "title": "Un and una follow the same rule as el and la",
+      "body": "Just like the definite articles you learned on Day 3, the indefinite articles un and una match the gender of the noun they introduce: un for masculine, una for feminine. Think of un/una as 'a/an' and el/la as 'the' — same gender-matching game, different meaning."
+    },
+    {
+      "title": "Me and te sit before the verb, just like lo and la",
+      "body": "Me ('me') and te ('you') are direct object pronouns too, and they follow the exact same placement rule you already learned: they jump in front of the conjugated verb. 'He saw me' becomes 'he me saw,' not 'he saw me.'"
+    },
+    {
+      "title": "Qué wears two hats: question and exclamation",
+      "body": "Qué with an accent mark can ask a question ('¿Qué quieres?' — What do you want?) or start an exclamation ('¡Qué bonito! — How beautiful!'). Both uses keep the accent, and both go right at the front of the sentence."
+    },
+    {
+      "title": "Don't mix up qué and que",
+      "body": "Qué (with an accent) asks or exclaims 'what.' Que (no accent), which you met on Day 2, is the connector 'that.' They sound almost identical when spoken quickly, but the accent mark is the only thing separating a question from a simple connector in writing."
+    }
+  ],
+  "bonusCards": [
+    {
+      "english": "A friend called me, and I answered.",
+      "answer": "**Un** friend **me** called, **y** I answered."
+    },
+    {
+      "english": "What do you want? I want a coffee.",
+      "answer": "**¿Qué** do you want? I want **un** coffee."
+    },
+    {
+      "english": "She saw a house, and she loved it.",
+      "answer": "She saw **una** house, **y** she **la** loved."
+    },
+    {
+      "english": "What a surprise! A friend gave me a gift.",
+      "answer": "**¡Qué** surprise! **Un** friend **me** gave **un** gift."
+    },
+    {
+      "english": "I love you, and I always want to help you.",
+      "answer": "I **te** love, **y** I always want **a** **te** help."
+    }
+  ],
+  "resources": [
+    {
+      "name": "SpanishDictionary.com — Indefinite Articles in Spanish",
+      "url": "https://www.spanishdict.com/guide/indefinite-articles-in-spanish"
+    },
+    {
+      "name": "SpanishDictionary.com — Spanish Exclamatory Words and Expressions",
+      "url": "https://www.spanishdict.com/guide/spanish-exclamatory-words-and-expressions"
+    },
+    {
+      "name": "SpanishDictionary.com — Direct Object Pronoun Placement",
+      "url": "https://www.spanishdict.com/guide/direct-object-pronoun-placement"
+    }
+  ]
+}

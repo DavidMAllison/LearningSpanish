@@ -1,0 +1,59 @@
+{
+  "day": 9,
+  "updated": "2026-07-20",
+  "topic": "Imperfect past of ser and estar",
+  "tips": [
+    {
+      "title": "Same split, just in the past",
+      "body": "The ser/estar divide you learned for the present carries straight into the past: era describes what something was (identity, description, origin), while estaba describes where something was or how it felt (location, condition, emotion)."
+    },
+    {
+      "title": "Era is irregular, estaba is not",
+      "body": "Estaba follows the normal imperfect pattern for -ar verbs, so once you learn the pattern it's predictable. Ser, though, is one of only two verbs in all of Spanish (along with ir) that is fully irregular in the imperfect — era, eras, era, éramos, eran just have to be memorized."
+    },
+    {
+      "title": "Imperfect paints the background of a story",
+      "body": "Unlike a tense that reports a single finished action, the imperfect describes ongoing states or scenery in the past: what things were like, how someone felt, where something was. It answers 'what was going on' rather than 'what happened.'"
+    },
+    {
+      "title": "Don't drop the accent on éramos",
+      "body": "Éramos ('we were') is the only form of era that carries a written accent mark. It's a small detail, but it's an easy one to forget when you're writing quickly."
+    }
+  ],
+  "bonusCards": [
+    {
+      "english": "I was tired, and I was in bed all day.",
+      "answer": "I **estaba** tired, **y** I **estaba** **en** bed all day."
+    },
+    {
+      "english": "The teacher was very kind, and the students were happy.",
+      "answer": "**El** teacher **era** very kind, **y** the students **estaban** happy."
+    },
+    {
+      "english": "We were friends, and we were always together.",
+      "answer": "We **éramos** friends, **y** we **estábamos** always together."
+    },
+    {
+      "english": "Why were you here? I was looking for the keys.",
+      "answer": "**¿Por qué** **estabas** **aquí**? I was looking **para** **las** keys."
+    },
+    {
+      "english": "The house was old, but it was clean.",
+      "answer": "**La** house **era** old, but **estaba** clean."
+    }
+  ],
+  "resources": [
+    {
+      "name": "BaseLang — Ser and Estar Past Tense: Choosing between Era vs Fue vs Estaba",
+      "url": "https://baselang.com/blog/basic-grammar/ser-estar-past-tense-explained-real-world-use/"
+    },
+    {
+      "name": "Kwiziq Spanish — Conjugate ser in the imperfect tense (el pretérito imperfecto)",
+      "url": "https://spanish.kwiziq.com/revision/grammar/conjugate-ser-in-el-preterito-imperfecto"
+    },
+    {
+      "name": "Kwiziq Spanish — Estar: imperfect conjugations",
+      "url": "https://spanish.kwiziq.com/revision/grammar/conjugate-regular-verb-estar-in-el-preterito-imperfecto-imperfect-tense"
+    }
+  ]
+}

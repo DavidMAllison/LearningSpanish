@@ -1,0 +1,55 @@
+{
+  "day": 16,
+  "updated": "2026-07-20",
+  "topic": "Demonstratives (este, ese, esto) and everyday nouns",
+  "tips": [
+    {
+      "title": "Esto pairs up with eso, the word you already know",
+      "body": "Back on Day 2 you learned eso for 'that' (neuter, no gender). Now esto is its partner: 'this' (neuter). Este and esta point at a specific masculine or feminine noun, but esto and eso point at whole ideas or unnamed things -- 'Esto es genial!' means 'this (whole situation) is great!'"
+    },
+    {
+      "title": "En verdad and de verdad both come from 'truth'",
+      "body": "Verdad means truth, and Spanish builds two handy phrases from it: en verdad (actually, in truth) and de verdad (really, truly). En verdad usually opens a sentence to correct or clarify something; de verdad often intensifies a statement or asks a question, like '¿de verdad?' (really?)."
+    },
+    {
+      "title": "Tiempo and vez are both 'time' in English, but not in Spanish",
+      "body": "Tiempo is time in general -- duration, a period, even the weather. Vez is one specific occurrence -- 'una vez' means 'one time.' English speakers often mix these up because English uses just one word for both ideas."
+    }
+  ],
+  "bonusCards": [
+    {
+      "english": "This day, I want to eat with this girl.",
+      "answer": "**Este** **día**, **quiero** **comer** **con** **esta** **chica**."
+    },
+    {
+      "english": "That boy and that girl are here this time.",
+      "answer": "**Ese** **chico** **y** **esa** **chica** **están** **aquí** **esta** **vez**."
+    },
+    {
+      "english": "This is not the truth; that is the truth.",
+      "answer": "**Esto** **no** **es** **la** **verdad**; **eso** **es** **la** **verdad**."
+    },
+    {
+      "english": "Sir, is this thing for you?",
+      "answer": "**Señor**, **¿es** **esta** **cosa** **para** **usted**?"
+    },
+    {
+      "english": "Actually, this has been a good time for my friend.",
+      "answer": "**En verdad**, **este** **ha** **sido** **un** good **tiempo** **para** **mi** **amigo**."
+    }
+  ],
+  "resources": [
+    {
+      "name": "SpanishDictionary.com — Demonstrative Adjectives in Spanish",
+      "url": "https://www.spanishdict.com/guide/demonstrative-adjectives-in-spanish"
+    },
+    {
+      "name": "Kwiziq Spanish — Using esto, este, esta, estos, estas (demonstrative pronouns)",
+      "url": "https://spanish.kwiziq.com/revision/grammar/using-esto-este-esta-estos-estas-to-say-this-this-one-and-these-ones-demonstrative-pronouns"
+    },
+    {
+      "name": "SpanishDictionary.com — Tiempo, Vez, and Hora",
+      "url": "https://www.spanishdict.com/guide/tiempo-vez-and-hora"
+    }
+  ]
+}

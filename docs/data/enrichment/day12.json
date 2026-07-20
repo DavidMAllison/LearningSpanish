@@ -1,0 +1,59 @@
+{
+  "day": 12,
+  "updated": "2026-07-20",
+  "topic": "Review week: consolidating days 2-11",
+  "tips": [
+    {
+      "title": "Mix it up, don't block it",
+      "body": "Instead of reviewing Day 2 words, then Day 3 words, then Day 4 words in neat separate piles, shuffle them together. Research on spaced and interleaved practice shows that mixing old material together (rather than studying it in isolated blocks) leads to much stronger long-term retention."
+    },
+    {
+      "title": "Say it before you see it",
+      "body": "Cover the Spanish word on a flashcard and try to produce it from memory before flipping it over. This is called active recall, and it works far better than just re-reading old notes or vocabulary lists, even though re-reading feels easier."
+    },
+    {
+      "title": "Ser vs. estar is this week's big one",
+      "body": "You met both 'to be' verbs this week, plus their past and subjunctive forms. That's the trickiest contrast so far, so give it extra review time: ser for what something fundamentally IS, estar for where it is or how it feels right now."
+    },
+    {
+      "title": "The tiniest words carry the most weight",
+      "body": "Que, de, a, eso, su -- these show up in almost every sentence you'll ever build. Because they're so short, it's easy to skim past them when reviewing, but they're actually the highest-value words to drill since they compound across every new sentence."
+    }
+  ],
+  "bonusCards": [
+    {
+      "english": "The dog is happy, and it is with my friend.",
+      "answer": "**El** dog **es** happy, **y** **está** **con** **mi** **amigo**."
+    },
+    {
+      "english": "Sir, were you the owner of my house?",
+      "answer": "Sir, **¿era** **usted** **el** owner **de** **mi** house?"
+    },
+    {
+      "english": "I want that for my friend, not for me.",
+      "answer": "**Quiero** **eso** **para** **mi** **amigo**, **no** **para** **me**."
+    },
+    {
+      "english": "We were happy, and they are happy too.",
+      "answer": "**Estábamos** happy, **y** **están** happy too."
+    },
+    {
+      "english": "Why do you want my things?",
+      "answer": "**¿Por qué** **quieres** **mis** **cosas**?"
+    }
+  ],
+  "resources": [
+    {
+      "name": "PMC (National Library of Medicine) — Adaptive Forgetting Curves for Spaced Repetition Language Learning",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7334729/"
+    },
+    {
+      "name": "SafetyCulture Training — How to Use Active Recall and Spaced Repetition",
+      "url": "https://training.safetyculture.com/blog/how-to-use-active-recall-and-spaced-repetition/"
+    },
+    {
+      "name": "SpanishDictionary.com — Ser vs. Estar (DOCTOR mnemonic)",
+      "url": "https://www.spanishdict.com/guide/ser-vs-estar"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "day": 14,
+  "updated": "2026-07-20",
+  "topic": "Subject pronouns, indirect objects, and hacer",
+  "tips": [
+    {
+      "title": "Subject pronouns are optional -- use them for emphasis",
+      "body": "Yo, tú, él, ella, nosotros, ellos, and ellas usually get dropped in Spanish because the verb ending already says who's doing the action. Spanish speakers add them mainly for emphasis or to avoid confusion, like clarifying él (he) versus ella (she) when the verb form alone wouldn't tell you."
+    },
+    {
+      "title": "Le is a mystery pronoun, just like su",
+      "body": "Le can mean 'to him,' 'to her,' or 'to you' (formal). Same ambiguity problem as su from Day 11 -- context has to fill in the blank. Les works the same way for 'to them' or 'to you all.'"
+    },
+    {
+      "title": "Hacer + favor is how you politely ask for help",
+      "body": "The verb hacer (to do/make) shows up in a very common polite formula: 'hazme el favor de...' or simply asking '¿me haces un favor?' (can you do me a favor?). Learning hacer alongside favor gives you one of the most useful everyday requests in the language."
+    }
+  ],
+  "bonusCards": [
+    {
+      "english": "I can do him a favor.",
+      "answer": "**Puedo** **le** **hacer** **un** **favor**."
+    },
+    {
+      "english": "Are you doing your homework, or are you doing my homework?",
+      "answer": "**¿Estás** **haciendo** **tu** homework, **o** **estás** **haciendo** **mi** homework?"
+    },
+    {
+      "english": "He has done it, and she has done it too.",
+      "answer": "**Él** **lo** **ha** **hecho**, **y** **ella** **lo** **ha** **hecho** too."
+    },
+    {
+      "english": "I can eat here if you want.",
+      "answer": "**Puedo** **comer** **aquí** **si** **quieres**."
+    }
+  ],
+  "resources": [
+    {
+      "name": "SpanishDictionary.com — Subject Pronouns in Spanish",
+      "url": "https://www.spanishdict.com/guide/subject-pronouns-in-spanish"
+    },
+    {
+      "name": "SpanishDictionary.com — Indirect Object Pronouns",
+      "url": "https://www.spanishdict.com/guide/indirect-object-pronouns"
+    },
+    {
+      "name": "Kwiziq Spanish — Using me, te, le, nos, os, les as indirect object pronouns",
+      "url": "https://spanish.kwiziq.com/revision/grammar/using-me-te-le-nos-os-les-as-indirect-object-pronouns"
+    }
+  ]
+}

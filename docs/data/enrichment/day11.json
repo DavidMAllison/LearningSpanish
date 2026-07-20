@@ -1,0 +1,47 @@
+{
+  "day": 11,
+  "updated": "2026-07-20",
+  "topic": "Possessives: mi, tu, su",
+  "tips": [
+    {
+      "title": "Su is Spanish's biggest question mark",
+      "body": "Su and sus can mean his, her, your (formal, with usted), or their -- one little word covers four different owners. You have to use context to figure out who owns what. If it's ever unclear, Spanish speakers often add 'de' plus the person's name instead, like 'el carro de Ana' (Ana's car), to be extra clear."
+    },
+    {
+      "title": "Mi, tu, and su never change for gender",
+      "body": "Unlike adjectives you'll meet later, mi, tu, and su stay exactly the same whether the thing owned is masculine or feminine: mi amigo and mi amiga both use mi. The only change they ever make is adding an -s for plural things owned."
+    },
+    {
+      "title": "The -s agrees with the thing owned, not the owner",
+      "body": "Mis cosas means 'my things' -- there's still just one owner (you), but 'things' is plural, so mi becomes mis. It can feel backwards at first: the plural marks what's possessed, never who's possessing it."
+    }
+  ],
+  "bonusCards": [
+    {
+      "english": "That is a thing that I want for my friend.",
+      "answer": "**Eso** **es** **una** **cosa** **que** **quiero** **para** **mi** **amigo**."
+    },
+    {
+      "english": "Your friend and my friend are teachers.",
+      "answer": "**Tu** **amigo** **y** **mi** **amigo** **son** teachers."
+    },
+    {
+      "english": "Do you want her keys? I want my keys.",
+      "answer": "**¿Quieres** **sus** keys? **Quiero** **mis** keys."
+    },
+    {
+      "english": "His friend was here in the morning.",
+      "answer": "**Su** **amiga** **estaba** **aquí** **en** **la** morning."
+    }
+  ],
+  "resources": [
+    {
+      "name": "SpanishDictionary.com — Spanish Possessive Adjectives",
+      "url": "https://www.spanishdict.com/guide/possessive-adjectives-in-spanish"
+    },
+    {
+      "name": "Kwiziq Spanish — My, your, his, her, its, our and their (possessive adjectives)",
+      "url": "https://spanish.kwiziq.com/revision/grammar/how-to-say-my-your-his-her-its-our-and-their-possessive-adjectives"
+    }
+  ]
+}

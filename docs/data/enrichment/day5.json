@@ -1,0 +1,59 @@
+{
+  "day": 5,
+  "updated": "2026-07-20",
+  "topic": "Los/las, por vs para, and their idioms",
+  "tips": [
+    {
+      "title": "Los and las are just el and la, pluralized",
+      "body": "You already know el and la; los and las simply add 'more than one' to the mix. Los covers masculine plural nouns, las covers feminine plural nouns — the same gender-matching habit you've been building all week, now with an -s."
+    },
+    {
+      "title": "Por looks backward, para looks forward",
+      "body": "Por explains the cause, reason, or means behind something — it looks back in time. Para points at a goal, destination, or recipient — it looks ahead. 'I did it por love' (the reason) versus 'I did it para you' (the recipient) captures the split."
+    },
+    {
+      "title": "Three idioms hide inside por and para",
+      "body": "Por qué (why?), por eso (that's why), and para que (so that/in order that) are fixed phrases built from words you already know. Notice that por qué carries an accent mark because it's asking a question — that accent is the giveaway."
+    },
+    {
+      "title": "En for being in a spot, con for being with someone",
+      "body": "En usually marks location or being inside/on something ('en the car'), while con marks accompaniment or a tool ('con a friend', 'con a pen'). They're small words, but you'll use them constantly."
+    }
+  ],
+  "bonusCards": [
+    {
+      "english": "The children are in the park with the dogs.",
+      "answer": "**Los** children are **en** **el** park **con** **los** dogs."
+    },
+    {
+      "english": "Why are the doors closed? Because of the storm.",
+      "answer": "**¿Por qué** are **las** doors closed? **Por** the storm."
+    },
+    {
+      "english": "I bought the gifts for the girls.",
+      "answer": "I bought **los** gifts **para** **las** girls."
+    },
+    {
+      "english": "That's why I study with a book and a pen.",
+      "answer": "**Por eso** I study **con** **un** book **y** **una** pen."
+    },
+    {
+      "english": "I called so that the doctors know the truth.",
+      "answer": "I called **para que** **los** doctors know **la** truth."
+    }
+  ],
+  "resources": [
+    {
+      "name": "SpanishDictionary.com — Por vs Para",
+      "url": "https://www.spanishdict.com/guide/por-vs-para"
+    },
+    {
+      "name": "Kwiziq Spanish — Use los or las to say 'the' (plural definite articles)",
+      "url": "https://spanish.kwiziq.com/revision/grammar/use-los-or-las-to-say-the-plural-definite-articles"
+    },
+    {
+      "name": "Spanish.academy — How to Use Spanish Verbs with Prepositions Con, En, and Por",
+      "url": "https://www.spanish.academy/blog/how-to-use-spanish-verbs-with-prepositions-con-en-and-por/"
+    }
+  ]
+}

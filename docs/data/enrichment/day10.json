@@ -1,0 +1,59 @@
+{
+  "day": 10,
+  "updated": "2026-07-20",
+  "topic": "Present subjunctive of ser and estar",
+  "tips": [
+    {
+      "title": "Que is the trigger, sea/esté is the reaction",
+      "body": "The subjunctive almost always shows up right after que, once the first part of the sentence has already expressed a wish, doubt, or emotion: 'I hope que you esté okay.' Spot the wish or doubt first, and the subjunctive that follows makes a lot more sense."
+    },
+    {
+      "title": "WEIRDO tells you when to expect it",
+      "body": "A popular memory trick groups the subjunctive's triggers into WEIRDO: Wishes, Emotions, Impersonal expressions ('es importante que...'), Recommendations, Doubt/Denial, and Ojalá ('hopefully'). If your sentence fits one of those categories, expect sea or esté instead of es or está."
+    },
+    {
+      "title": "Sea and esté are must-memorize irregulars",
+      "body": "Most subjunctive verbs are built by flipping the ending on the regular present-tense stem, but ser and estar don't play along — their subjunctive forms (sea, seas... and esté, estés...) have to be learned by heart, alongside a handful of other irregulars like dar, ir, haber, and saber."
+    },
+    {
+      "title": "The ser/estar split survives into the subjunctive",
+      "body": "Even in this new mood, the old rule still applies: sea for identity, qualities, or things being wished for or doubted; esté for location, condition, or a temporary state someone hopes for. If you'd use ser in the present, lean toward sea here — and the same for estar and esté."
+    }
+  ],
+  "bonusCards": [
+    {
+      "english": "I hope you are here for the party.",
+      "answer": "I hope **que** you **estés** **aquí** **para** **la** party."
+    },
+    {
+      "english": "It is important that we are honest.",
+      "answer": "**Es** important **que** we **seamos** honest."
+    },
+    {
+      "english": "I doubt that the store is open.",
+      "answer": "I doubt **que** **la** store **esté** open."
+    },
+    {
+      "english": "She wants the soup to be ready before we arrive.",
+      "answer": "She wants **que** **la** soup **esté** ready before we arrive."
+    },
+    {
+      "english": "Study so that you are the best doctor.",
+      "answer": "Study **para que** **seas** **el** best doctor."
+    }
+  ],
+  "resources": [
+    {
+      "name": "SpanishDictionary.com — Spanish Present Subjunctive Regular and Irregular Forms",
+      "url": "https://www.spanishdict.com/guide/spanish-present-subjunctive"
+    },
+    {
+      "name": "Spanish.academy — Easy Guide to the WEIRDO Subjunctive",
+      "url": "https://www.spanish.academy/blog/an-easy-guide-to-the-weirdo-subjunctive/"
+    },
+    {
+      "name": "BaseLang — Present Subjunctive Spanish: A complete beginner-friendly guide",
+      "url": "https://baselang.com/blog/advanced-grammar/present-subjunctive-spanish/"
+    }
+  ]
+}

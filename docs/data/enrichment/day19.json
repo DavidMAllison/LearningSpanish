@@ -1,0 +1,55 @@
+{
+  "day": 19,
+  "updated": "2026-07-20",
+  "topic": "Sé, hay, puede, and creo",
+  "tips": [
+    {
+      "title": "Sé wears an accent so it isn't se",
+      "body": "Sé (I know, from the verb saber) and se (the reflexive pronoun from Day 15) are spelled almost the same. The accent is the only thing separating 'I know' from 'himself/herself.' Watch for it when you're reading."
+    },
+    {
+      "title": "Hay never changes, no matter how many things there are",
+      "body": "Hay means both 'there is' and 'there are' -- it's always the same word whether one thing exists or a hundred do. 'Hay un chico' and 'hay dos chicos' both use hay, unlike English, which switches between 'is' and 'are.'"
+    },
+    {
+      "title": "Creo que is a gentle way to share an opinion",
+      "body": "Creo (I believe/think) is almost always followed by que, forming 'creo que...' (I think that...). It's one of the most useful sentence-openers in everyday Spanish for softly stating what you think."
+    }
+  ],
+  "bonusCards": [
+    {
+      "english": "I know that there is a good friend here.",
+      "answer": "**Sé** **que** **hay** **un** **buen** **amigo** **aquí**."
+    },
+    {
+      "english": "Do you know if he can go with me?",
+      "answer": "**¿Sabes** **si** **él** **puede** **ir** **conmigo**?"
+    },
+    {
+      "english": "I believe there is nothing here, but I do not know.",
+      "answer": "**Creo** **que** **no** **hay** **nada** **aquí**, **pero** **no** **sé**."
+    },
+    {
+      "english": "There is a good place, but I do not know where.",
+      "answer": "**Hay** **un** **buen** **lugar**, **pero** **no** **sé** **dónde**."
+    },
+    {
+      "english": "There is nobody here; I believe everyone has gone.",
+      "answer": "**No** **hay** **nadie** **aquí**; **creo** **que** **todos** **han** **ido**."
+    }
+  ],
+  "resources": [
+    {
+      "name": "SpanishDictionary.com — Saber vs. Conocer",
+      "url": "https://www.spanishdict.com/guide/saber-vs-conocer"
+    },
+    {
+      "name": "MundoDELE — Hay in Spanish: There Is, There Are & Haber",
+      "url": "https://mundodele.com/en/learn/spanish-grammar/verbs/hay/"
+    },
+    {
+      "name": "SpanishDictionary.com — Puedo (Poder) Conjugation",
+      "url": "https://www.spanishdict.com/conjugate/puedo"
+    }
+  ]
+}

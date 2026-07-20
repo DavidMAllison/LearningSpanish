@@ -17,7 +17,7 @@ becoming "Spanglish" and eventually nearly full Spanish.
     practice cards, cited external resources) rendered under the flashcards
   - Progress is stored per-user in the browser's localStorage; visitors are
     identified by a `?u=<code>` link parameter.
-- **`scripts/send_weekly_sms.py`** — queues a weekly iMessage (Sunday 11pm,
+- **`scripts/send_weekly_sms.py`** — queues a weekly iMessage (Sunday 11am,
   via a local `launchd` job) containing each person's personal site link.
   Recipient details live in a gitignored config file.
 - **`.claude/agents/lesson-enricher.md`** — Claude Code agent that researches

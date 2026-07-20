@@ -1,0 +1,59 @@
+{
+  "day": 3,
+  "updated": "2026-07-20",
+  "topic": "El/la articles, lo/la direct object pronouns, and no",
+  "tips": [
+    {
+      "title": "El and la sort nouns into two teams",
+      "body": "Every Spanish noun is masculine or feminine, and el/la simply tag which team it's on: el for masculine, la for feminine. Words ending in -o are usually masculine and words ending in -a are usually feminine, but there are exceptions (el día is masculine despite the -a). The safest habit is to learn each new noun together with its article."
+    },
+    {
+      "title": "Lo and la can also mean 'him,' 'her,' or 'it'",
+      "body": "The same little words that mean 'the' can also replace a noun you already mentioned, like English 'it.' The trick is placement: in Spanish the pronoun jumps in front of the conjugated verb instead of trailing after it, so 'she knows him' becomes 'she la knows' or 'she lo knows' depending on gender."
+    },
+    {
+      "title": "No always parks right before the verb",
+      "body": "English needs a helper word to negate ('does not know'), but Spanish just drops no directly in front of whatever verb you want to negate: 'no knows' instead of 'does not know.' It is one of the simplest rules in the whole language, and it never moves."
+    },
+    {
+      "title": "Watch for the article/pronoun switch",
+      "body": "Because la and el can be either 'the' (in front of a noun) or 'her/him/it' (in front of a verb), it helps to ask yourself which job the word is doing in a given sentence. If a noun follows, it's an article; if a verb follows, it's standing in for something already named."
+    }
+  ],
+  "bonusCards": [
+    {
+      "english": "The dad found the wallet, and the mom lost it.",
+      "answer": "**El** dad found **la** wallet, **y** **la** mom **la** lost."
+    },
+    {
+      "english": "That is not the answer, and I know it.",
+      "answer": "**Eso** **no** is **la** answer, **y** I **la** know."
+    },
+    {
+      "english": "The girl saw the movie, and she recommends it.",
+      "answer": "**La** girl saw **la** movie, **y** she **la** recommends."
+    },
+    {
+      "english": "The man opened the door, and he closed it again.",
+      "answer": "**El** man opened **la** door, **y** he **la** closed again."
+    },
+    {
+      "english": "I know that the boy loves the dog, and he pets it every day.",
+      "answer": "I know **que** **el** boy loves **el** dog, **y** he **lo** pets every day."
+    }
+  ],
+  "resources": [
+    {
+      "name": "SpanishDictionary.com — Direct Object Pronouns in Spanish",
+      "url": "https://www.spanishdict.com/guide/direct-object-pronouns-in-spanish"
+    },
+    {
+      "name": "SpanishDictionary.com — \"El\" or \"La\"? An Introduction to Spanish Articles",
+      "url": "https://www.spanishdict.com/guide/el-or-la-an-introduction-to-spanish-articles"
+    },
+    {
+      "name": "SpanishDictionary.com — Negation and Negative Words in Spanish",
+      "url": "https://www.spanishdict.com/guide/negation-and-negative-words-in-spanish"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "day": 7,
+  "updated": "2026-07-20",
+  "topic": "Usted (formal you) and the attribute pronoun lo",
+  "tips": [
+    {
+      "title": "Usted borrows the he/she verb form",
+      "body": "Even though usted means 'you,' it conjugates just like él or ella: usted es, not usted eres. That quirk exists because usted grew out of an old title, 'vuestra merced' (your grace), which was grammatically third person — a habit that stuck around for centuries."
+    },
+    {
+      "title": "Lo can stand in for a whole idea, not just a noun",
+      "body": "You already used lo as 'him/it.' After ser (or estar), lo can also replace an adjective or a whole idea from the question: 'Are you tired? Lo estoy.' or 'Is she the teacher? Lo es.' It doesn't change for gender or number — lo always stays lo."
+    },
+    {
+      "title": "When to reach for usted",
+      "body": "Use usted with strangers, elders, doctors, teachers, or anyone in a professional setting where you want to show respect or keep some distance. If you're unsure which 'you' to use, usted is almost always the safer default."
+    },
+    {
+      "title": "Don't let lo agree with anything",
+      "body": "A common mistake is trying to make lo match the gender or number of what it replaces, like turning it into 'los' for a plural subject. Resist that urge: 'Son ricos? Lo son.' — lo never changes shape, no matter what it's standing in for."
+    }
+  ],
+  "bonusCards": [
+    {
+      "english": "Are you the manager, sir? Yes, I am.",
+      "answer": "**¿Es** **usted** **el** manager, sir? Yes, **lo** **soy**."
+    },
+    {
+      "english": "Is the coffee good? I believe so.",
+      "answer": "**¿Es** **el** coffee good? I **lo** believe."
+    },
+    {
+      "english": "You are very generous, madam.",
+      "answer": "**Usted** **es** very generous, madam."
+    },
+    {
+      "english": "Are they the owners? Yes, they are.",
+      "answer": "**¿Son** they **los** owners? Yes, **lo** **son**."
+    },
+    {
+      "english": "Is she the doctor? I believe so.",
+      "answer": "**¿Es** she **la** doctor? I **lo** believe."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Kwiziq Spanish — Tú vs Usted (informal vs formal)",
+      "url": "https://spanish.kwiziq.com/revision/grammar/tu-vs-usted-informal-vs-formal"
+    },
+    {
+      "name": "RealFastSpanish — 6 Ways to Use 'Lo' to Replace or Create Any New Idea",
+      "url": "https://www.realfastspanish.com/vocabulary/uses-of-lo"
+    },
+    {
+      "name": "Spanish.academy — An Epic Grammar Guide to 'Lo' in Spanish",
+      "url": "https://www.spanish.academy/blog/an-epic-grammar-guide-to-lo-in-spanish-si-lo-puedes-aprender/"
+    }
+  ]
+}

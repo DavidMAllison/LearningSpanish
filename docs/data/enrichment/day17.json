@@ -1,0 +1,55 @@
+{
+  "day": 17,
+  "updated": "2026-07-20",
+  "topic": "Tener, indefinite pronouns, and lo + adjective",
+  "tips": [
+    {
+      "title": "Double negatives are correct in Spanish",
+      "body": "'No tengo nada' literally means 'I don't have nothing,' and that's perfectly proper Spanish for 'I don't have anything.' Nada and nadie usually team up with no instead of replacing it, which is the opposite of the English rule against double negatives."
+    },
+    {
+      "title": "Bueno shrinks to buen before a masculine noun",
+      "body": "Right before a masculine singular noun, bueno loses its final -o and becomes buen: 'un buen día' (a good day). Buena stays full-length before feminine nouns. This shortening is called apocope, and it's required, not optional."
+    },
+    {
+      "title": "Lo + adjective turns a describing word into a thing",
+      "body": "Lo bueno means 'the good part/thing,' and lo que means 'what' as a connector. Adding lo in front of an adjective is a distinctly Spanish trick for talking about an abstract idea without naming a specific noun."
+    }
+  ],
+  "bonusCards": [
+    {
+      "english": "I have two friends, but nobody has my keys.",
+      "answer": "**Tengo** **dos** **amigos**, **pero** **nadie** **tiene** **mis** keys."
+    },
+    {
+      "english": "Does she have something for my friend? She has nothing.",
+      "answer": "**¿Tiene** **ella** **algo** **para** **mi** **amigo**? **No** **tiene** **nada**."
+    },
+    {
+      "english": "This is a good day, and that was a good time too.",
+      "answer": "**Este** **es** **un** **buen** **día**, **y** **eso** **era** **un** **buen** **tiempo** too."
+    },
+    {
+      "english": "The good thing is that my friend has more time.",
+      "answer": "**Lo bueno** **es** **que** **mi** **amigo** **tiene** **más** **tiempo**."
+    },
+    {
+      "english": "What I have is nothing, but what I want is everything.",
+      "answer": "**Lo que** **tengo** **es** **nada**, **pero** **lo que** **quiero** **es** **todo**."
+    }
+  ],
+  "resources": [
+    {
+      "name": "SpanishDictionary.com — Tener Conjugation",
+      "url": "https://www.spanishdict.com/conjugate/tener"
+    },
+    {
+      "name": "Revision World — Indefinite Pronouns in Spanish",
+      "url": "https://revisionworld.com/gcse-revision/spanish-gcse-revision/spanish-grammar/spanish-pronouns/indefinite-pronouns-spanish"
+    },
+    {
+      "name": "SpanishDictionary.com — Short-Form Adjectives in Spanish",
+      "url": "https://www.spanishdict.com/guide/short-form-adjectives-in-spanish"
+    }
+  ]
+}

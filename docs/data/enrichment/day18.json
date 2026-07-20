@@ -1,0 +1,59 @@
+{
+  "day": 18,
+  "updated": "2026-07-20",
+  "topic": "Prepositional pronouns, question words, and adverbs",
+  "tips": [
+    {
+      "title": "Mí wears an accent; mi does not",
+      "body": "Mí (me, used after a preposition, like 'para mí') and mi (my, from Day 11) look nearly identical, but the accent mark changes everything. It's a perfect example of how one tiny mark can flip a word's whole job in Spanish."
+    },
+    {
+      "title": "Conmigo and contigo are permanent fusions",
+      "body": "Spanish never says 'con mí' or 'con ti' -- centuries ago those combinations welded into single words: conmigo (with me) and contigo (with you). Just memorize them as their own vocabulary words."
+    },
+    {
+      "title": "Sí and si are another accent trap",
+      "body": "Sí with an accent means 'yes.' Si without an accent (from Day 13) means 'if.' Same letters, same sound, completely different jobs -- only the written accent and the surrounding sentence tell them apart."
+    },
+    {
+      "title": "Every question word carries a written accent",
+      "body": "Quién, dónde, cómo -- every single interrogative word in Spanish has an accent on its stressed syllable, even when it's tucked inside a statement like 'no sé dónde está' (I don't know where it is)."
+    }
+  ],
+  "bonusCards": [
+    {
+      "english": "Do you want to go with me, or do you want to go with her?",
+      "answer": "**¿Quieres** **ir** **conmigo**, **o** **quieres** **ir** **con** **ella**?"
+    },
+    {
+      "english": "How are you? I am very well.",
+      "answer": "**¿Cómo** **estás**? **Estoy** **muy** **bien**."
+    },
+    {
+      "english": "Where is my friend now? He is only with me, like this.",
+      "answer": "**¿Dónde** **está** **mi** **amigo** **ahora**? **Está** **sólo** **conmigo**, **así**."
+    },
+    {
+      "english": "I never go with him; I only go with you.",
+      "answer": "**Nunca** **voy** **con** **él**; **sólo** **voy** **contigo**."
+    },
+    {
+      "english": "Who has eaten already? Only my friend has eaten.",
+      "answer": "**¿Quién** **ha** **comido** **ya**? **Sólo** **mi** **amigo** **ha** **comido**."
+    }
+  ],
+  "resources": [
+    {
+      "name": "SpanishDictionary.com — Prepositional Pronouns in Spanish",
+      "url": "https://www.spanishdict.com/guide/prepositional-pronouns-in-spanish"
+    },
+    {
+      "name": "SpanishDictionary.com — Spanish Question Words",
+      "url": "https://www.spanishdict.com/guide/spanish-question-words"
+    },
+    {
+      "name": "Kwiziq Spanish — Sí and Si (with or without accent)",
+      "url": "https://spanish.kwiziq.com/revision/grammar/difference-between-si-and-si-yes-and-if"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "day": 15,
+  "updated": "2026-07-20",
+  "topic": "The verb ir, contractions al/del, and reflexive pronouns",
+  "tips": [
+    {
+      "title": "Al and del are Spanish's only two contractions",
+      "body": "A + el always becomes al, and de + el always becomes del -- Spanish only has these two forced contractions in the whole language. The one exception: if 'El' is capitalized as part of a proper name (like El Salvador), it does not contract."
+    },
+    {
+      "title": "Ir is wildly irregular -- just memorize it as a set",
+      "body": "Voy, vas, va, vamos, van barely resemble the infinitive 'ir' at all, the same way soy, eres, es didn't look like 'ser.' Don't try to derive these forms from a pattern; learn the whole set together like a little song."
+    },
+    {
+      "title": "Reflexive pronouns show the action bouncing back",
+      "body": "Se, me, te, and nos sit right before the verb when someone does something to themselves rather than to someone else. 'Se lava' means 'he washes himself' -- the action bounces back onto the subject instead of landing on someone or something else."
+    }
+  ],
+  "bonusCards": [
+    {
+      "english": "I go to the park, and you go to the store.",
+      "answer": "**Voy** **a** **la** park, **y** **vas** **a** **la** store."
+    },
+    {
+      "english": "Are you going to the store, or are you going to the office?",
+      "answer": "**¿Vas** **a** **la** store, **o** **vas** **a** **la** office?"
+    },
+    {
+      "english": "She washes herself every morning.",
+      "answer": "**Ella** **se** washes every morning."
+    },
+    {
+      "english": "Have you gone to the place of my friend?",
+      "answer": "**¿Has** **ido** **al** **lugar** **de** **mi** **amigo**?"
+    },
+    {
+      "english": "The keys of that place are with my friend.",
+      "answer": "**Las** keys **del** **lugar** **están** **con** **mi** **amigo**."
+    }
+  ],
+  "resources": [
+    {
+      "name": "SpanishDictionary.com — Spanish Contractions",
+      "url": "https://www.spanishdict.com/guide/spanish-contractions"
+    },
+    {
+      "name": "SpanishDictionary.com — Reflexive Verbs and Reflexive Pronouns",
+      "url": "https://www.spanishdict.com/guide/reflexive-verbs-and-reflexive-pronouns"
+    },
+    {
+      "name": "SpanishDictionary.com — Ir Conjugation",
+      "url": "https://www.spanishdict.com/conjugate/ir"
+    }
+  ]
+}

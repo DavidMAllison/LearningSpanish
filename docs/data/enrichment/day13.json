@@ -1,0 +1,55 @@
+{
+  "day": 13,
+  "updated": "2026-07-20",
+  "topic": "Conjunctions, the present perfect (haber), and gerunds",
+  "tips": [
+    {
+      "title": "Cuando, si, and porque plug in just like English",
+      "body": "These three conjunctions work almost exactly like their English translations: cuando (when), si (if), and porque (because) all hook two ideas together the same way. They're some of the easiest new words this week because you don't have to relearn how they behave, just their sound."
+    },
+    {
+      "title": "Never split haber from its partner",
+      "body": "He, has, ha, hemos, and han always sit right next to the past participle that follows them (comido, sido, estado). Nothing goes between them -- if there's an object pronoun, it jumps in front of haber instead, like 'lo he comido' (I have eaten it), never in the middle."
+    },
+    {
+      "title": "Gerunds always end in -ndo",
+      "body": "Comiendo and siendo follow the same recipe: drop the -er/-ir ending and add -iendo. Gerunds team up with estar to describe something happening right now: estoy comiendo means 'I am eating,' in progress at this very moment."
+    }
+  ],
+  "bonusCards": [
+    {
+      "english": "If you have eaten, that is good.",
+      "answer": "**Si** **has** **comido**, **eso** **es** good."
+    },
+    {
+      "english": "I have been happy because I have been with my friends.",
+      "answer": "**He** **estado** happy **porque** **he** **estado** **con** **mis** **amigos**."
+    },
+    {
+      "english": "When you are eating, I am eating too.",
+      "answer": "**Cuando** **estás** **comiendo**, **estoy** **comiendo** too."
+    },
+    {
+      "english": "Have they eaten, or have they not eaten?",
+      "answer": "**¿Han** **comido**, **o** **no** **han** **comido**?"
+    },
+    {
+      "english": "That has been a good day, but I want to eat.",
+      "answer": "**Eso** **ha** **sido** **un** good day, **pero** **quiero** **comer**."
+    }
+  ],
+  "resources": [
+    {
+      "name": "SpanishDictionary.com — Spanish Present Perfect Indicative",
+      "url": "https://www.spanishdict.com/guide/spanish-present-perfect-indicative"
+    },
+    {
+      "name": "Kwiziq Spanish — El Pretérito Perfecto (verb tense glossary)",
+      "url": "https://spanish.kwiziq.com/revision/glossary/verb-tense-mood/preterito-perfecto"
+    },
+    {
+      "name": "SpanishDictionary.com — Gerunds in Spanish",
+      "url": "https://www.spanishdict.com/guide/gerunds-in-spanish"
+    }
+  ]
+}

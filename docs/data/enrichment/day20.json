@@ -1,0 +1,59 @@
+{
+  "day": 20,
+  "updated": "2026-07-20",
+  "topic": "Greetings and everyday politeness",
+  "tips": [
+    {
+      "title": "Hola works at any time of day",
+      "body": "Buenos días is for the morning, buenas tardes for the afternoon, and buenas noches for the evening. Hola sidesteps all of that -- it's always safe, whether you're being casual or formal, morning or night."
+    },
+    {
+      "title": "Gracias a Dios is a common everyday phrase",
+      "body": "Literally 'thanks to God,' this phrase is used the way English speakers say 'thank goodness,' even by people who aren't especially religious. You'll hear it whenever something turns out okay after a worry."
+    },
+    {
+      "title": "Por favor is flexible about where it goes",
+      "body": "Unlike English 'please,' which usually sits in the middle of a request, por favor can open or close a sentence: 'Por favor, ayúdame' and 'Ayúdame, por favor' both work fine."
+    },
+    {
+      "title": "De nada literally means 'of nothing'",
+      "body": "It's the standard reply to gracias, and it works the same way English 'it's nothing' does -- politely downplaying the favor you just did for someone."
+    }
+  ],
+  "bonusCards": [
+    {
+      "english": "Hello! Good morning, my friend! How are you?",
+      "answer": "**¡Hola!** **¡Buenos días**, **mi** **amigo**! **¿Cómo** **estás**?"
+    },
+    {
+      "english": "Thank you, sir. You are very kind, and I believe that is true.",
+      "answer": "**¡Gracias**, **señor**. **Usted** **es** **muy** kind, **y** **creo** **que** **eso** **es** **verdad**."
+    },
+    {
+      "english": "Please, can you do me a favor? Thank you!",
+      "answer": "**Por favor**, **¿puede** **usted** **me** **hacer** **un** **favor**? **¡Gracias!**"
+    },
+    {
+      "english": "Goodbye! Thank goodness, this has been a good day!",
+      "answer": "**¡Adiós!** **¡Gracias** **a** **Dios**, **esto** **ha** **sido** **un** **buen** **día**!"
+    },
+    {
+      "english": "You are welcome; I know that is the truth.",
+      "answer": "**De nada**; **sé** **que** **eso** **es** **la** **verdad**."
+    }
+  ],
+  "resources": [
+    {
+      "name": "SpanishDictionary.com — Spanish Greetings & Introductions",
+      "url": "https://www.spanishdict.com/lists/5800271/spanish-greetings-introductions"
+    },
+    {
+      "name": "Spanish Express — Greetings and Farewells in Spanish",
+      "url": "https://www.spanishexpress.co.uk/greetings-farewells-spanish/"
+    },
+    {
+      "name": "SpanishDictionary.com — Gracias a Dios (translation & usage)",
+      "url": "https://www.spanishdict.com/translate/gracias%20a%20dios"
+    }
+  ]
+}

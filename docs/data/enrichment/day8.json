@@ -1,0 +1,59 @@
+{
+  "day": 8,
+  "updated": "2026-07-20",
+  "topic": "Present tense of estar and aquí",
+  "tips": [
+    {
+      "title": "Estar owns location, no exceptions",
+      "body": "Whenever you're saying where someone or something is, estar is the verb — always. 'The keys están on the table,' 'I estoy at home,' 'You estás here.' Ser never handles location, so this is one of the clearest dividing lines between the two 'to be' verbs."
+    },
+    {
+      "title": "PLACE tells you when to reach for estar",
+      "body": "A handy mnemonic for estar's other jobs: Position, Location, Action (ongoing, like 'estoy comiendo'), Condition, and Emotion. If a sentence describes how something currently is or feels rather than what it fundamentally is, estar is your verb."
+    },
+    {
+      "title": "Same 'is,' two different verbs",
+      "body": "English speakers stumble here because English only has one word for 'is.' 'El café es bueno' (the coffee is good — a general quality, ser) is a completely different claim from 'El café está caliente' (the coffee is hot right now — a temporary condition, estar). Picking the wrong one is a very common beginner mistake, so it's worth double-checking every time."
+    },
+    {
+      "title": "Aquí never changes shape",
+      "body": "Unlike articles and pronouns, aquí (here) doesn't need to match gender or number — it's always just aquí. That makes it one of the easiest new words this week, and it pairs constantly with estar: 'estoy aquí,' 'estás aquí,' 'están aquí.'"
+    }
+  ],
+  "bonusCards": [
+    {
+      "english": "Are you here for the meeting? Yes, I am.",
+      "answer": "**¿Estás** **aquí** **para** **la** meeting? Yes, I **estoy**."
+    },
+    {
+      "english": "The soup is cold, but the bread is here.",
+      "answer": "**La** soup **está** cold, but **el** bread **está** **aquí**."
+    },
+    {
+      "english": "We are with the doctor, and she is very kind.",
+      "answer": "**Estamos** **con** **el** doctor, **y** she **es** very kind."
+    },
+    {
+      "english": "They are not here; they are at the office.",
+      "answer": "They **no** **están** **aquí**; they **están** **en** **la** office."
+    },
+    {
+      "english": "Sir, are you the manager? No, I am here for my son.",
+      "answer": "Sir, **¿es** **usted** **el** manager? **No**, I **estoy** **aquí** **para** my son."
+    }
+  ],
+  "resources": [
+    {
+      "name": "SpanishDictionary.com — Present Tense of Ser, Estar, and Tener",
+      "url": "https://www.spanishdict.com/guide/present-tense-of-ser-estar-and-tener"
+    },
+    {
+      "name": "Kwiziq Spanish — Conjugate estar in the present tense (El Presente)",
+      "url": "https://spanish.kwiziq.com/revision/grammar/conjugate-estar-in-el-presente-present-tense"
+    },
+    {
+      "name": "SpanishDictionary.com — Ser vs. Estar",
+      "url": "https://www.spanishdict.com/guide/ser-vs-estar"
+    }
+  ]
+}
